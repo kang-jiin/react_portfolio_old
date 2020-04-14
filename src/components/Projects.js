@@ -1,11 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 // reactstrap components
 import {
   Card,
   CardImg,
   Container,
-  NavLink,
   Row,
   Col
 } from "reactstrap";

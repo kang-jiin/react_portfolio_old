@@ -1,22 +1,9 @@
 import React from "react";
 // nodejs library that concatenates classes
-import classnames from "classnames";
 
 // reactstrap components
 import {
-  Badge,
-  Button,
-  Card,
-  CardBody,
-  CardImg,
-  FormGroup,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
-  Container,
-  Row,
-  Col
+  Container
 } from "reactstrap";
 
 // core components
@@ -26,9 +13,6 @@ import Career from "components/Career.js";
 import Skills from "components/Skills.js";
 import Projects from "components/Projects.js";
 import MyFooter from "components/MyFooter.js";
-
-// index page sections
-import Download from "./IndexSections/Download.js";
 
 class Main extends React.Component {
   state = {};
@@ -50,7 +34,6 @@ class Main extends React.Component {
             </Container>
           </section>
           <Projects />
-          {/* <Download /> */}
         </main>
         <MyFooter />
       </>
