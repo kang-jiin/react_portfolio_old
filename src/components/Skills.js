@@ -59,18 +59,18 @@ class Skills extends React.Component {
         </Row>
         <h3 className="h4 text-success font-weight-bold mt-5">Web</h3>
         <Row className="align-items-center">
-          <Col sm="4" xs="6">
+          <Col sm="3" xs="6">
             <small className="d-block text-uppercase font-weight-bold mb-4">
               HTML
             </small>
             <img
               alt="..."
               className="img-fluid rounded shadow-lg"
-              src={require("assets/img/skills/icons8-c-programming-500.png")}
+              src={require("assets/img/skills/html.png")}
               style={{ width: "150px" }}
             />
           </Col>
-          <Col sm="4" xs="6">
+          <Col sm="3" xs="6">
             <small className="d-block text-uppercase font-weight-bold mb-4">
               CSS
             </small>
@@ -81,14 +81,50 @@ class Skills extends React.Component {
               style={{ width: "150px" }}
             />
           </Col>
-          <Col className="mt-5 mt-sm-0" sm="4" xs="6">
+          <Col className="mt-5 mt-sm-0" sm="3" xs="6">
             <small className="d-block text-uppercase font-weight-bold mb-4">
               JQuery
             </small>
             <img
               alt="..."
               className="img-fluid rounded shadow-lg"
-              src={require("assets/img/skills/900px-JavaScript-logo.png")}
+              src={require("assets/img/skills/jquery.png")}
+              style={{ width: "150px" }}
+            />
+          </Col>
+          <Col className="mt-5 mt-sm-0" sm="3" xs="6">
+            <small className="d-block text-uppercase font-weight-bold mb-4">
+              Node.js
+            </small>
+            <img
+              alt="..."
+              className="img-fluid rounded shadow-lg"
+              src={require("assets/img/skills/icons8-nodejs-500.png")}
+              style={{ width: "150px" }}
+            />
+          </Col>
+        </Row>
+        <h3 className="h4 text-success font-weight-bold mt-5">Database</h3>
+        <Row className="align-items-center">
+          <Col sm="3" xs="6">
+            <small className="d-block text-uppercase font-weight-bold mb-4">
+              Oracle
+            </small>
+            <img
+              alt="..."
+              className="img-fluid rounded shadow-lg"
+              src={require("assets/img/skills/oracle.png")}
+              style={{ width: "150px" }}
+            />
+          </Col>
+          <Col sm="3" xs="6">
+            <small className="d-block text-uppercase font-weight-bold mb-4">
+              MySQL
+            </small>
+            <img
+              alt="..."
+              className="img-fluid rounded shadow-lg"
+              src={require("assets/img/skills/mysql.png")}
               style={{ width: "150px" }}
             />
           </Col>
