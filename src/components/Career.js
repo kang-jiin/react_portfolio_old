@@ -7,7 +7,7 @@ class Career extends React.Component {
   render() {
     return (
       <>
-        <h2 className="mt-lg mb-5">
+        <h2 className="mt-lg mb-5" id="career">
           <span>Career</span>
         </h2>
         {/* <h3 className="h4 text-success font-weight-bold mt-md">Paragraphs</h3> */}

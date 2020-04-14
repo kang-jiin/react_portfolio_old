@@ -7,7 +7,7 @@ class AboutMe extends React.Component {
   render() {
     return (
       <>
-        <div className="position-relative">
+        <div className="position-relative" id="aboutme">
           {/* Hero for FREE version */}
           <section className="section section-hero section-shaped">
             {/* Background circles */}

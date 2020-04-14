@@ -15,7 +15,7 @@ class Projects extends React.Component {
     return (
       <>
         <Container className="container-lg mb-5">
-        <h2 className="mt-0 mb-5">
+        <h2 className="mt-0 mb-5" id="projects">
           <span>Projects</span>
         </h2>
           <Row>

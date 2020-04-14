@@ -87,7 +87,10 @@ class MyNavbar extends React.Component {
                 <Nav className="align-items-lg-center" navbar>
                   <NavItem>
                     <NavLink
-                      href="https://www.facebook.com/creativetim"
+                      // href="https://www.facebook.com/creativetim"
+                      onClick={() => {
+                        document.getElementById('aboutme').scrollIntoView();
+                     }}
                     >
                       <i className="fa fa-facebook-square d-lg-none" />
                       <span className="nav-link-inner--text ml-2">
@@ -97,7 +100,10 @@ class MyNavbar extends React.Component {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="https://www.instagram.com/creativetimofficial"
+                      // href="https://www.instagram.com/creativetimofficial"
+                      onClick={() => {
+                        document.getElementById('skills').scrollIntoView();
+                     }}
                     >
                       <i className="fa fa-instagram d-lg-none" />
                       <span className="nav-link-inner--text ml-2">
@@ -107,7 +113,10 @@ class MyNavbar extends React.Component {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="https://twitter.com/creativetim"
+                      // href="https://twitter.com/creativetim"
+                      onClick={() => {
+                        document.getElementById('career').scrollIntoView();
+                     }}
                     >
                       <i className="fa fa-twitter-square d-lg-none" />
                       <span className="nav-link-inner--text">
@@ -117,7 +126,10 @@ class MyNavbar extends React.Component {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="https://github.com/creativetimofficial/argon-design-system-react"
+                      // href="https://github.com/creativetimofficial/argon-design-system-react"
+                      onClick={() => {
+                        document.getElementById('projects').scrollIntoView();
+                     }}
                     >
                       <i className="fa fa-github d-lg-none" />
                       <span className="nav-link-inner--text">
