@@ -22,7 +22,7 @@ class Projects extends React.Component {
                 <a
                 // href="http://ec2-52-79-50-30.ap-northeast-2.compute.amazonaws.com:7777/"
                 // target="_blank"
-                href="/proj1"
+                href="/kdkd"
                 >
                   <CardImg
                     alt="..."

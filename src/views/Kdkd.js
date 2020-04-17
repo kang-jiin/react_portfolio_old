@@ -21,16 +21,16 @@ import {
 
 // core components
 import MyNavbar from "components/MyNavbar.js";
-import Summary from "components/proj1/Summary.js";
-import Skill from "components/proj1/Skill.js";
-import Database from "components/proj1/Database.js";
-import UI_home from "components/proj1/UI_home.js";
+import Summary from "components/kdkd/Summary.js";
+import Skill from "components/kdkd/Skill.js";
+import Database from "components/kdkd/Database.js";
+import UI_home from "components/kdkd/UI_home.js";
 import CardsFooter from "components/Footers/CardsFooter.js";
 
 // index page sections
 import Download from "./IndexSections/Download.js";
 
-class Proj1 extends React.Component {
+class Kdkd extends React.Component {
   state = {};
   componentDidMount() {
     document.documentElement.scrollTop = 0;
@@ -779,4 +779,4 @@ class Proj1 extends React.Component {
   }
 }
 
-export default Proj1;
+export default Kdkd;
