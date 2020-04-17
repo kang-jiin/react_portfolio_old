@@ -50,10 +50,6 @@ class MyNavbar extends React.Component {
             <Container>
               {/* logo */}
               <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
-                {/* <img
-                  alt="..."
-                  src={require("assets/img/brand/argon-react-white.png")}
-                /> */}
                 <span className="nav-link-inner--text ml-2">
                   Home
                 </span>
@@ -88,21 +84,21 @@ class MyNavbar extends React.Component {
                 <Nav className="align-items-lg-center" navbar>
                   <NavItem>
                     <NavLink
-                      href="/proj1"
+                      href="/kdkd"
                     >
                       <i className="fa fa-instagram d-lg-none" />
                       <span className="nav-link-inner--text ml-2">
-                        Project1
+                        키드키득
                       </span>
                     </NavLink>
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="/proj2"
+                      href="/sgpg"
                     >
                       <i className="fa fa-twitter-square d-lg-none" />
                       <span className="nav-link-inner--text">
-                        Project2
+                        사구팔구
                       </span>
                     </NavLink>
                   </NavItem>

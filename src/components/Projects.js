@@ -34,8 +34,9 @@ class Projects extends React.Component {
             <Col className="mb-5 mb-lg-0" md="6">
               <Card className="card-lift--hover shadow border-0">
                 <a 
-                href="http://ec2-52-79-50-30.ap-northeast-2.compute.amazonaws.com:8888/"
-                target="_blank"
+                // href="http://ec2-52-79-50-30.ap-northeast-2.compute.amazonaws.com:8888/"
+                // target="_blank"
+                href="/sgpg"
                 >
                   <CardImg
                     alt="..."

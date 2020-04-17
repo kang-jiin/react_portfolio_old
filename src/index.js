@@ -10,6 +10,7 @@ import Index from "views/Index.js";
 import Home from "views/Home.js";
 import Main from "views/Main.js";
 import Kdkd from "views/Kdkd.js";
+import Sgpg from "views/Sgpg.js";
 import Landing from "views/examples/Landing.js";
 import Login from "views/examples/Login.js";
 import Profile from "views/examples/Profile.js";
@@ -24,6 +25,11 @@ ReactDOM.render(
         path="/kdkd"
         exact
         render={props => <Kdkd {...props} />}
+      />
+      <Route
+        path="/sgpg"
+        exact
+        render={props => <Sgpg {...props} />}
       />
       <Route
         path="/home"
