@@ -21,10 +21,6 @@ import {
 
 // core components
 import MyNavbar from "components/MyNavbar.js";
-import Summary from "components/proj1/Summary.js";
-import Skill from "components/proj1/Skill.js";
-import Database from "components/proj1/Database.js";
-import UI_home from "components/proj1/UI_home.js";
 import CardsFooter from "components/Footers/CardsFooter.js";
 
 // index page sections
@@ -42,7 +38,206 @@ class Proj1 extends React.Component {
       <>
         <MyNavbar />
         <main ref="main">
-          <Summary />
+          <div className="position-relative">
+            {/* shape Hero */}
+            <section className="section section-lg section-shaped pb-250">
+              <div className="shape shape-style-1 shape-default">
+                <span />
+                <span />
+                <span />
+                <span />
+                <span />
+                <span />
+                <span />
+                <span />
+                <span />
+              </div>
+              <Container className="py-lg-md d-flex">
+                <div className="col px-0">
+                  <Row>
+                    <Col lg="6" className="d-flex flex-column">
+                      <div className="p-2">
+                        <h1 className="display-2 text-white">
+                          키드키득{" "}
+                        </h1>
+                        <h1 className="display-4 text-white">
+                          <span>아이(kid)를 웃게하는(키득) </span>
+                          <span>유치원 자동 등하원 관리 시스템</span>
+                        </h1>
+                      </div>
+                      <div className="btn-wrappe align-self-center mt-auto p-2">
+                        <Button
+                          className="btn-icon mb-3 mb-sm-0"
+                          color="info"
+                          href="http://ec2-52-79-50-30.ap-northeast-2.compute.amazonaws.com:7777/"
+                          target="_blank"
+                        >
+                          <span className="btn-inner--icon mr-1">
+                            <i className="fa fa-code" />
+                          </span>
+                          <span className="btn-inner--text">View</span>
+                        </Button>
+                        <Button
+                          className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
+                          color="default"
+                          href="https://github.com/KangG/kdkd_aws"
+                          target="_blank"
+                        >
+                          <span className="btn-inner--icon mr-1">
+                          <i className="fa fa-code" />
+                          </span>
+                          <span className="btn-inner--text">Code</span>
+                        </Button>
+                      </div>
+                    </Col>
+                    <Col lg="6">
+                    <div>
+                        <ul className="list-unstyled mt-5">
+                          <li className="py-2">
+                            <div className="d-flex align-items-center">
+                              <div>
+                                <Badge
+                                  className="badge-circle mr-3"
+                                  color="info"
+                                >
+                                  <i className="ni ni-satisfied" />
+                                </Badge>
+                              </div>
+                              <div>
+                                <h6 className="text-white mb-0">어린이 차량 안전사고에서 착안</h6>
+                              </div>
+                            </div>
+                          </li>
+                          <li className="py-2">
+                            <div className="d-flex align-items-center">
+                              <div>
+                                <Badge
+                                  className="badge-circle mr-3"
+                                  color="info"
+                                >
+                                  <i className="ni ni-satisfied" />
+                                </Badge>
+                              </div>
+                              <div>
+                                <h6 className="text-white mb-0">아이의 안전과 학생관리 목적</h6>
+                              </div>
+                            </div>
+                          </li>
+                          <li className="py-2">
+                            <div className="d-flex align-items-center">
+                              <div>
+                                <Badge
+                                  className="badge-circle mr-3"
+                                  color="info"
+                                >
+                                  <i className="ni ni-satisfied" />
+                                </Badge>
+                              </div>
+                              <div>
+                                <h6 className="text-white mb-0">아이에게 RFID Key가 들어간 인형 부여</h6>
+                              </div>
+                            </div>
+                          </li>
+                          <li className="py-2">
+                            <div className="d-flex align-items-center">
+                              <div>
+                                <Badge
+                                  className="badge-circle mr-3"
+                                  color="info"
+                                >
+                                  <i className="ni ni-settings-gear-65" />
+                                </Badge>
+                              </div>
+                              <div>
+                                <h6 className="text-white mb-0">유치원 입구를 지날 때 등하원 정보 자동 저장</h6>
+                              </div>
+                            </div>
+                          </li>
+                          <li className="py-2">
+                            <div className="d-flex align-items-center">
+                              <div>
+                                <Badge
+                                  className="badge-circle mr-3"
+                                  color="info"
+                                >
+                                  <i className="ni ni-html5" />
+                                </Badge>
+                              </div>
+                              <div>
+                                <h6 className="text-white mb-0">학부모/관리자 기능 분리</h6>
+                              </div>
+                            </div>
+                          </li>
+                          <li className="py-2">
+                            <div className="d-flex align-items-center">
+                              <div>
+                                <Badge
+                                  className="badge-circle mr-3"
+                                  color="info"
+                                >
+                                  <i className="ni ni-satisfied" />
+                                </Badge>
+                              </div>
+                              <div>
+                                <h6 className="text-white mb-0">반 내부 CCTV 화면 제공</h6>
+                              </div>
+                            </div>
+                          </li>
+                          <li className="py-2">
+                            <div className="d-flex align-items-center">
+                              <div>
+                                <Badge
+                                  className="badge-circle mr-3"
+                                  color="info"
+                                >
+                                  <i className="ni ni-settings-gear-65" />
+                                </Badge>
+                              </div>
+                              <div>
+                                <h6 className="text-white mb-0">온습도, 미세먼지 수치와 그래프 제공</h6>
+                              </div>
+                            </div>
+                          </li>
+                          <li className="py-2">
+                            <div className="d-flex align-items-center">
+                              <div>
+                                <Badge
+                                  className="badge-circle mr-3"
+                                  color="info"
+                                >
+                                  <i className="ni ni-html5" />
+                                </Badge>
+                              </div>
+                              <div>
+                                <h6 className="text-white mb-0">알림장/일정/채팅 등 커뮤니티 기능 제공</h6>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                      </Col>
+                  </Row>
+                </div>
+              </Container>
+              {/* SVG separator */}
+              <div className="separator separator-bottom separator-skew">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  preserveAspectRatio="none"
+                  version="1.1"
+                  viewBox="0 0 2560 100"
+                  x="0"
+                  y="0"
+                >
+                  <polygon
+                    className="fill-white"
+                    points="2560 0 2560 100 0 100"
+                  />
+                </svg>
+              </div>
+            </section>
+            {/* 1st Hero Variation */}
+          </div>
           <section className="section section-lg pt-lg-0 mt--200">
             <Container>
               <Row className="justify-content-center">
@@ -161,9 +356,6 @@ class Proj1 extends React.Component {
               </Row>
             </Container>
           </section>
-          <Skill />
-          <Database />
-          <UI_home />
           <section className="section section-lg">
             <Container>
               <Row className="row-grid align-items-center">

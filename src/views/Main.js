@@ -7,6 +7,7 @@ import {
 } from "reactstrap";
 
 // core components
+import HomeNavbar from "components/HomeNavbar.js";
 import MyNavbar from "components/MyNavbar.js";
 import AboutMe from "components/AboutMe.js";
 import Career from "components/Career.js";
@@ -24,7 +25,8 @@ class Main extends React.Component {
   render() {
     return (
       <>
-        <MyNavbar />
+        {/* <MyNavbar /> */}
+        <HomeNavbar />
         <main ref="main">
           <AboutMe />
           <section className="section section-components">

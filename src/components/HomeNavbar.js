@@ -16,7 +16,7 @@ import {
   Col
 } from "reactstrap";
 
-class MyNavbar extends React.Component {
+class HomeNavbar extends React.Component {
   componentDidMount() {
     // let headroom = new Headroom(document.getElementById("navbar-main"));
     // initialise
@@ -44,8 +44,10 @@ class MyNavbar extends React.Component {
       <>
         <header className="header-global">
           <Navbar
+            // className="navbar-main fixed-top navbar-transparent navbar-light"
             className="fixed-top navbar-dark bg-primary"
             expand="lg"
+            // id="navbar-main"
           >
             <Container>
               {/* logo */}
@@ -72,6 +74,10 @@ class MyNavbar extends React.Component {
                   <Row>
                     <Col className="collapse-brand" xs="6">
                       <Link to="/">
+                        {/* <img
+                          alt="..."
+                          src={require("assets/img/brand/argon-react.png")}
+                        /> */}
                         <span className="nav-link-inner--text ml-2">
                           Home
                         </span>
@@ -88,21 +94,53 @@ class MyNavbar extends React.Component {
                 <Nav className="align-items-lg-center" navbar>
                   <NavItem>
                     <NavLink
-                      href="/proj1"
+                      // href="https://www.facebook.com/creativetim"
+                      onClick={() => {
+                        document.getElementById('aboutme').scrollIntoView();
+                     }}
                     >
-                      <i className="fa fa-instagram d-lg-none" />
+                      <i className="fa fa-facebook-square d-lg-none" />
                       <span className="nav-link-inner--text ml-2">
-                        Project1
+                        About Me
                       </span>
                     </NavLink>
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="/proj2"
+                      // href="https://www.instagram.com/creativetimofficial"
+                      onClick={() => {
+                        document.getElementById('skills').scrollIntoView();
+                     }}
+                    >
+                      <i className="fa fa-instagram d-lg-none" />
+                      <span className="nav-link-inner--text ml-2">
+                        Skills
+                      </span>
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink
+                      // href="https://twitter.com/creativetim"
+                      onClick={() => {
+                        document.getElementById('career').scrollIntoView();
+                     }}
                     >
                       <i className="fa fa-twitter-square d-lg-none" />
                       <span className="nav-link-inner--text">
-                        Project2
+                        Career
+                      </span>
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink
+                      // href="https://github.com/creativetimofficial/argon-design-system-react"
+                      onClick={() => {
+                        document.getElementById('projects').scrollIntoView();
+                     }}
+                    >
+                      <i className="fa fa-github d-lg-none" />
+                      <span className="nav-link-inner--text">
+                        Projects
                       </span>
                     </NavLink>
                   </NavItem>
@@ -133,4 +171,4 @@ class MyNavbar extends React.Component {
   }
 }
 
-export default MyNavbar;
+export default HomeNavbar;
