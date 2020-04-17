@@ -25,7 +25,7 @@ import Summary from "components/sgpg/Summary.js";
 import Skill from "components/sgpg/Skill.js";
 import Database from "components/sgpg/Database.js";
 import UI_home from "components/sgpg/UI_home.js";
-import CardsFooter from "components/Footers/CardsFooter.js";
+import MyFooter from "components/MyFooter.js";
 
 // index page sections
 import Download from "./IndexSections/Download.js";
@@ -773,7 +773,7 @@ class Sgpg extends React.Component {
           </section>
           <Download />
         </main>
-        <CardsFooter />
+        <MyFooter />
       </>
     );
   }

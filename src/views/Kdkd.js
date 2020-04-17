@@ -25,7 +25,7 @@ import Summary from "components/kdkd/Summary.js";
 import Skill from "components/kdkd/Skill.js";
 import Database from "components/kdkd/Database.js";
 import UI_home from "components/kdkd/UI_home.js";
-import CardsFooter from "components/Footers/CardsFooter.js";
+import MyFooter from "components/MyFooter.js";
 
 // index page sections
 import Download from "./IndexSections/Download.js";
@@ -773,7 +773,7 @@ class Kdkd extends React.Component {
           </section>
           <Download />
         </main>
-        <CardsFooter />
+        <MyFooter />
       </>
     );
   }
