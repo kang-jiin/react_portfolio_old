@@ -7,7 +7,7 @@ import {
   Col
 } from "reactstrap";
 
-class UI_login extends React.Component {
+class UI_admin extends React.Component {
   render() {
     return (
       <><section className="section section-lg">
@@ -16,19 +16,19 @@ class UI_login extends React.Component {
             <Col className="order-md-2" md="8">
               <img
                 alt="..."
-                className="img-fluid floating"
-                src={require("assets/img/kdkd_login3.png")}
+                className="img-center img-fluid"
+                src={require("assets/img/kdkd/kdkd_admin.png")}
               />
             </Col>
             <Col className="order-md-1" md="4">
               <div className="pr-md-5">
-                <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-3">
+                <div className="icon icon-lg icon-shape icon-shape-primary shadow rounded-circle mb-3">
                   <i className="ni ni-settings-gear-65" />
                 </div>
-                <h3>Login</h3>
+                <h3>관리자</h3>
                 <p>
-                  키드키득은 자체 계정, 네이버, 카카오 3가지를 지원합니다.
-                  자체 계정은 회원가입 시, SNS 간편 로그인은 최초 로그인 시 학생 등록을 해야만 서비스를 이용할 수 있습니다.
+                  관리자 기능은 관리자 계정에서만 표시됩니다.<br/>
+                  관리자 계정은 회원가입으로 생성할 수 없고, 학생 정보 관리, 알림장 작성 등의 기능을 제공합니다.<br/>
                 </p>
                 <ul className="list-unstyled mt-5">
                   <li className="py-2">
@@ -36,14 +36,14 @@ class UI_login extends React.Component {
                       <div>
                         <Badge
                           className="badge-circle mr-3"
-                          color="success"
+                          color="primary"
                         >
                           <i className="ni ni-settings-gear-65" />
                         </Badge>
                       </div>
                       <div>
                         <h6 className="mb-0">
-                          키드키득 자체 계정
+                          사이드 바에 [관리자 기능] 표시
                         </h6>
                       </div>
                     </div>
@@ -53,14 +53,14 @@ class UI_login extends React.Component {
                       <div>
                         <Badge
                           className="badge-circle mr-3"
-                          color="success"
+                          color="primary"
                         >
                           <i className="ni ni-html5" />
                         </Badge>
                       </div>
                       <div>
                         <h6 className="mb-0">
-                          네이버/카카오 로그인 지원
+                          반별 학생 정보 추가
                         </h6>
                       </div>
                     </div>
@@ -70,14 +70,14 @@ class UI_login extends React.Component {
                       <div>
                         <Badge
                           className="badge-circle mr-3"
-                          color="success"
+                          color="primary"
                         >
                           <i className="ni ni-satisfied" />
                         </Badge>
                       </div>
                       <div>
                         <h6 className="mb-0">
-                          회원 가입 시 학생 등록 필수
+                          연결된 RFID 리더기를 이용해 출입코드 자동 생성
                         </h6>
                       </div>
                     </div>
@@ -93,4 +93,4 @@ class UI_login extends React.Component {
   }
 }
 
-export default UI_login;
+export default UI_admin;
