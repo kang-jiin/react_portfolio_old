@@ -50,31 +50,33 @@ class Kdkd extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            Login
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            express-session 모듈<br/>
+                            네이버 아이디로 로그인 API<br/>
+                            카카오 아이디로 로그인 API
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
-                              design
+                              키드키득
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              system
+                              naver
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              creative
+                              kakao
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
                             color="primary"
                             href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            onClick={() => {
+                              document.getElementById('login').scrollIntoView();
+                           }}
                           >
-                            Learn more
+                            Detail
                           </Button>
                         </CardBody>
                       </Card>
@@ -86,31 +88,33 @@ class Kdkd extends React.Component {
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                            등하원
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Arduino uno<br/>
+                            PHP / APACHE<br/>
+                            RFID 테깅 시, 서버에 자동 저장
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
-                              business
+                              Arduino uno
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              vision
+                              PHP / APACHE
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              success
+                              Mysql
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
                             color="success"
                             href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            onClick={() => {
+                              document.getElementById('inout').scrollIntoView();
+                           }}
                           >
-                            Learn more
+                            Detail
                           </Button>
                         </CardBody>
                       </Card>
@@ -122,31 +126,33 @@ class Kdkd extends React.Component {
                             <i className="ni ni-planet" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            관리자
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            반별 학생 정보 관리<br/>
+                            학생 추가 시, RFID Key 자동 생성<br/>
+                            관리자 계정만 사용 가능
                           </p>
                           <div>
                             <Badge color="warning" pill className="mr-1">
-                              marketing
+                              RFID
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
-                              product
+                              Serialport
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
-                              launch
+                              Admin
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
                             color="warning"
                             href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            onClick={() => {
+                              document.getElementById('admin').scrollIntoView();
+                           }}
                           >
-                            Learn more
+                            Detail
                           </Button>
                         </CardBody>
                       </Card>
@@ -159,9 +165,9 @@ class Kdkd extends React.Component {
           <Skill />
           <Database />
           <UI_home />
-          <UI_login />
-          <UI_inout />
-          <UI_admin />
+          <div id="login"><UI_login /></div>
+          <div id="inout"><UI_inout /></div>
+          <div id="admin"><UI_admin /></div>
           <UI_community />
 
         </main>

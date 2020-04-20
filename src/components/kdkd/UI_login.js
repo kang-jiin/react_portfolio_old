@@ -29,6 +29,7 @@ class UI_login extends React.Component {
                 <p>
                   키드키득은 자체 계정, 네이버, 카카오 3가지를 지원합니다.
                   자체 계정은 회원가입 시, SNS 간편 로그인은 최초 로그인 시 학생 등록을 해야만 서비스를 이용할 수 있습니다.
+                  키드키득의 모든 기능은 로그인을 해야만 이용할 수 있습니다.
                 </p>
                 <ul className="list-unstyled mt-5">
                   <li className="py-2">
