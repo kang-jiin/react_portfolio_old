@@ -45,7 +45,7 @@ class Summary extends React.Component {
                       <Button
                         className="btn-icon mb-3 mb-sm-0"
                         color="info"
-                        href="http://ec2-52-79-50-30.ap-northeast-2.compute.amazonaws.com:8888/"
+                        href="http://ec2-13-125-229-208.ap-northeast-2.compute.amazonaws.com:8888/"
                         target="_blank"
                       >
                         <span className="btn-inner--icon mr-1">
