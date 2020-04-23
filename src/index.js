@@ -8,7 +8,7 @@ import "assets/scss/argon-design-system-react.scss?v1.1.0";
 
 import Index from "views/Index.js";
 import Home from "views/Home.js";
-import Main from "views/Main.js";
+import Home_save from "views/Home save.js";
 import Kdkd from "views/Kdkd.js";
 import Sgpg from "views/Sgpg.js";
 import Landing from "views/examples/Landing.js";
@@ -19,7 +19,7 @@ import Register from "views/examples/Register.js";
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/" exact render={props => <Main {...props} />} />
+      <Route path="/" exact render={props => <Home {...props} />} />
       <Route path="/index" exact render={props => <Index {...props} />} />
       <Route
         path="/kdkd"
@@ -34,7 +34,7 @@ ReactDOM.render(
       <Route
         path="/home"
         exact
-        render={props => <Home {...props} />}
+        render={props => <Home_save {...props} />}
       />
       <Route
         path="/landing-page"

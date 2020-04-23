@@ -1,12 +1,14 @@
 import React from "react";
 
 // reactstrap components
-import { Row, Col } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 
 class Career extends React.Component {
   render() {
     return (
       <>
+      <section className="section section-components">
+        <Container>
         <h2 className="mt-lg mb-5" id="career">
           <span>Career</span>
         </h2>
@@ -77,6 +79,8 @@ class Career extends React.Component {
             </p>
           </Col>
         </Row>
+        </Container>
+      </section>
       </>
     );
   }

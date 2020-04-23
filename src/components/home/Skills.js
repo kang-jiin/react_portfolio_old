@@ -1,13 +1,15 @@
 import React from "react";
 
 // reactstrap components
-import { Row, Col } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 
 class Skills extends React.Component {
   render() {
     return (
       <>
-        <h2 className="mt-lg mb-5" id="skills">
+      <section className="section section-components">
+        <Container>
+        <h2 className="mb-5" id="skills">
           <span>Skills</span>
         </h2>
         <h3 className="h4 text-success font-weight-bold mt-5">Language</h3>
@@ -129,6 +131,8 @@ class Skills extends React.Component {
             />
           </Col>
         </Row>
+        </Container>
+      </section>
       </>
     );
   }

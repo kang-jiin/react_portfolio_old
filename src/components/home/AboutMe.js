@@ -26,7 +26,7 @@ class AboutMe extends React.Component {
             <Container className="shape-container d-flex align-items-center py-lg">
               <div className="col px-0">
                 <Row className="align-items-center justify-content-center">
-                  <Col className="text-center" lg="6">
+                  <Col className="text-center">
                     {/* <h1 className="display-1 mb-0 text-white">Web Developer</h1>
                     <h3 className="display-3 mt-5 text-white">
 
@@ -34,12 +34,12 @@ class AboutMe extends React.Component {
                     </h3> */}
                     <div>
                       <h2 className="display-1 text-white">Web Developer</h2>
-                      <h3 className="display-3 lead text-white mt-8">
+                      <h2 className="display-1 text-white">PortFolio</h2>
+                      <h3 className="display-3 lead text-white mt-5">
                       강지인의 포트폴리오입니다.
-                      여기다 뭐라쓰지........
                       </h3>
                     </div>
-                    <p className="text-white">
+                    <p className="text-white mb-8">
                       dmssk13@gmail.com
                     </p>
                   </Col>
