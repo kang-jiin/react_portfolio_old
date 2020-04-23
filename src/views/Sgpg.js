@@ -51,7 +51,7 @@ class Sgpg extends React.Component {
           <Skill />
           <Database />
           <div id="home"><UI_home /></div>
-          <div id="login"><UI_user /></div>
+          <div id="user"><UI_user /></div>
           <UI_itemadd />
           <div id="itemdetail"><UI_itemdetail /></div>
         </main>
