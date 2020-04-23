@@ -3,10 +3,10 @@ import React from "react";
 // core components
 import MyNavbar from "components/MyNavbar.js";
 import Summary from "components/kdkd/Summary.js";
+import UI_summary from "components/kdkd/UI_summary.js";
 import Skill from "components/kdkd/Skill.js";
 import Database from "components/kdkd/Database.js";
 import UI_home from "components/kdkd/UI_home.js";
-import UI_summary from "components/kdkd/UI_summary.js";
 import UI_login from "components/kdkd/UI_login.js";
 import UI_inout from "components/kdkd/UI_inout.js";
 import UI_admin from "components/kdkd/UI_admin.js";

@@ -94,6 +94,7 @@ class UI_home extends React.Component {
                 </Card>
               </Col>
             </Row>
+            <Row><br/><br/></Row>
           </Container>
           {/* SVG separator */}
           <div className="separator separator-bottom separator-skew zindex-100">
@@ -106,7 +107,7 @@ class UI_home extends React.Component {
               y="0"
             >
               <polygon
-                className="fill-white"
+                className="fill-secondary"
                 points="2560 0 2560 100 0 100"
               />
             </svg>

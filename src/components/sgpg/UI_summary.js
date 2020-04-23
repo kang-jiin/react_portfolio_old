@@ -23,74 +23,76 @@ class UI_summary extends React.Component {
                 <Col lg="4">
                   <Card className="card-lift--hover shadow border-0">
                     <CardBody className="py-5">
-                      <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
-                        <i className="ni ni-check-bold" />
+                      <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
+                        <i className="ni ni-istanbul" />
                       </div>
-                      <h6 className="text-primary text-uppercase">
-                        Login
-                    </h6>
+                      <h6 className="text-success text-uppercase">
+                        Home
+                      </h6>
                       <p className="description mt-3">
-                        express-session 모듈<br />
-                      네이버 아이디로 로그인 API<br />
-                      카카오 아이디로 로그인 API
-                    </p>
+                        JQuery 숫자만 입력<br />
+                        Summer Note WYSIWYG<br />
+                        경매 등록, 7일 뒤 자동 종료<br />
+                        물품 9개씩 페이징
+                      </p>
                       <div>
-                        <Badge color="primary" pill className="mr-1">
-                          키드키득
-                      </Badge>
-                        <Badge color="primary" pill className="mr-1">
-                          naver
-                      </Badge>
-                        <Badge color="primary" pill className="mr-1">
-                          kakao
-                      </Badge>
+                        <Badge color="success" pill className="mr-1">
+                          JQuery
+                        </Badge>
+                        <Badge color="success" pill className="mr-1">
+                          Summer Note
+                        </Badge>
+                        <Badge color="success" pill className="mr-1">
+                          paging
+                        </Badge>
                       </div>
                       <Button
                         className="mt-4"
-                        color="primary"
+                        color="success"
                         onClick={() => {
-                          document.getElementById('login').scrollIntoView();
+                          document.getElementById('home').scrollIntoView();
                         }}
                       >
                         Detail
-                    </Button>
+                      </Button>
                     </CardBody>
                   </Card>
                 </Col>
                 <Col lg="4">
                   <Card className="card-lift--hover shadow border-0">
                     <CardBody className="py-5">
-                      <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
-                        <i className="ni ni-istanbul" />
+                      <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
+                        <i className="ni ni-check-bold" />
                       </div>
-                      <h6 className="text-success text-uppercase">
-                        등하원
-                    </h6>
+                      <h6 className="text-primary text-uppercase">
+                        회원 기능
+                      </h6>
                       <p className="description mt-3">
-                        Arduino uno<br />
-                      PHP / APACHE<br />
-                      RFID 테깅 시, 서버에 자동 저장
-                    </p>
+                        express-session 모듈<br />
+                        버튼 활성 / 비활성<br />
+                        my page<br />
+                        등록 물품 / 참여 물품 리스트
+                      </p>
                       <div>
-                        <Badge color="success" pill className="mr-1">
-                          Arduino uno
-                      </Badge>
-                        <Badge color="success" pill className="mr-1">
-                          PHP / APACHE
-                      </Badge>
-                        <Badge color="success" pill className="mr-1">
-                          Mysql
-                      </Badge>
+                        <Badge color="primary" pill className="mr-1">
+                          session
+                        </Badge>
+                        <Badge color="primary" pill className="mr-1">
+                          경매
+                        </Badge>
+                        <Badge color="primary" pill className="mr-1">
+                          입찰
+                        </Badge>
                       </div>
-                      <Button
-                        className="mt-4"
-                        color="success"
-                        onClick={() => {
-                          document.getElementById('inout').scrollIntoView();
-                        }}
-                      >
-                        Detail
-                    </Button>
+                        <Button
+                          className="mt-4"
+                          color="primary"
+                          onClick={() => {
+                            document.getElementById('user').scrollIntoView();
+                          }}
+                        >
+                          Detail
+                        </Button>
                     </CardBody>
                   </Card>
                 </Col>
@@ -101,33 +103,34 @@ class UI_summary extends React.Component {
                         <i className="ni ni-planet" />
                       </div>
                       <h6 className="text-warning text-uppercase">
-                        관리자
-                    </h6>
+                        물품 상세
+                      </h6>
                       <p className="description mt-3">
-                        반별 학생 정보 관리<br />
-                      학생 추가 시, RFID Key 자동 생성<br />
-                      관리자 계정만 사용 가능
-                    </p>
+                        남은 시간 비동기 표기<br />
+                        현재 가격 변동 시 같은 페이지를<br/>
+                         보는 사용자 화면 모두 변경<br />
+                        댓글, 입찰 목록
+                      </p>
                       <div>
                         <Badge color="warning" pill className="mr-1">
-                          RFID
-                      </Badge>
+                          setInterval
+                        </Badge>
                         <Badge color="warning" pill className="mr-1">
-                          Serialport
-                      </Badge>
+                          Socket.io
+                        </Badge>
                         <Badge color="warning" pill className="mr-1">
-                          Admin
-                      </Badge>
+                          JQuery
+                        </Badge>
                       </div>
                       <Button
                         className="mt-4"
                         color="warning"
                         onClick={() => {
-                          document.getElementById('admin').scrollIntoView();
+                          document.getElementById('itemdetail').scrollIntoView();
                         }}
                       >
                         Detail
-                    </Button>
+                      </Button>
                     </CardBody>
                   </Card>
                 </Col>
