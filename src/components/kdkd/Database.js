@@ -17,7 +17,7 @@ class DataBase extends React.Component {
                                 <img
                                     alt="..."
                                     className="img-fluid floating"
-                                    src={require("assets/img/kdkd_erd.png")}
+                                    src={require("assets/img/kdkd/kdkd_erd.png")}
                                 />
                             </Col>
                             <Col md="4">

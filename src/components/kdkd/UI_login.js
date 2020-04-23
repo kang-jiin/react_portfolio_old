@@ -17,7 +17,7 @@ class UI_login extends React.Component {
               <img
                 alt="..."
                 className="img-fluid floating"
-                src={require("assets/img/kdkd_login3.png")}
+                src={require("assets/img/kdkd/kdkd_login3.png")}
               />
             </Col>
             <Col className="order-md-1" md="4">
