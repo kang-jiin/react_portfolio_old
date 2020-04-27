@@ -4,6 +4,40 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 
 class AboutMe extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      text1:" ",
+      text2:" "
+    }
+  };
+
+  componentDidMount() {
+    let i =0;
+
+    const typing = setInterval(() =>{
+      const typed1 = this.state.text1;
+      const typed2 = this.state.text2;
+      const finalText1= "Web Developer";
+      const finalText2= "PortFolio";
+
+      if(i<finalText1.length) { 
+        this.setState ({
+          text1: typed1 + finalText1[i]
+        });
+        i++
+      } 
+      else if(i<finalText1.length+finalText2.length) { 
+        this.setState ({
+          text2: typed2 + finalText2[i-finalText1.length]
+        });
+        i++
+      } else {
+        clearInterval(typing);
+      }
+    },150);
+  }
+
   render() {
     return (
       <>
@@ -27,21 +61,17 @@ class AboutMe extends React.Component {
               <div className="col px-0">
                 <Row className="align-items-center justify-content-center">
                   <Col className="text-center">
-                    {/* <h1 className="display-1 mb-0 text-white">Web Developer</h1>
-                    <h3 className="display-3 mt-5 text-white">
-
-                      강지인의 포트폴리오입니다.
-                    </h3> */}
-                    <div>
-                      <h2 className="display-1 text-white">Web Developer</h2>
-                      <h2 className="display-1 text-white">PortFolio</h2>
-                      <h3 className="display-3 lead text-white mt-5">
-                      강지인의 포트폴리오입니다.
-                      </h3>
+                    <div className="" id="h" style={{height:'200px'}}>
+                      <h1 className="display-1 text-white">{this.state.text1}</h1>
+                      <h1 className="display-1 text-white">{this.state.text2}</h1>
                     </div>
-                    <p className="text-white mb-8">
+                    <h3 className="display-3 lead text-white mt-5">
+                    {/* Full Stack Developer를 꿈꾸는<br/> */}
+                    강지인의 포트폴리오입니다.
+                    </h3>
+                    <h3 className="display-3 lead text-white mb-8">
                       dmssk13@gmail.com
-                    </p>
+                    </h3>
                   </Col>
                 </Row>
               </div>

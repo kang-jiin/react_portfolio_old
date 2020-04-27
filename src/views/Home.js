@@ -9,6 +9,7 @@ import Career from "components/home/Career.js";
 import Skills from "components/home/Skills.js";
 import Projects from "components/home/Projects.js";
 import MyFooter from "components/MyFooter.js";
+import ScrollTopBtn from "components/ScrollTop.js";
 
 class Home extends React.Component {
   state = {};
@@ -16,6 +17,7 @@ class Home extends React.Component {
     document.documentElement.scrollTop = 0;
     document.scrollingElement.scrollTop = 0;
     this.refs.main.scrollTop = 0;
+    document.documentElement.style.scrollBehavior = "smooth";
   }
   render() {
     return (
@@ -29,6 +31,7 @@ class Home extends React.Component {
           <Projects />
         </main>
         <MyFooter />
+        <ScrollTopBtn />
       </>
     );
   }

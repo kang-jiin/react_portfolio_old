@@ -12,6 +12,7 @@ import UI_inout from "components/kdkd/UI_inout.js";
 import UI_admin from "components/kdkd/UI_admin.js";
 import UI_community from "components/kdkd/UI_community.js";
 import MyFooter from "components/MyFooter.js";
+import ScrollTopBtn from "components/ScrollTop.js";
 
 class Kdkd extends React.Component {
   state = {};
@@ -19,6 +20,7 @@ class Kdkd extends React.Component {
     document.documentElement.scrollTop = 0;
     document.scrollingElement.scrollTop = 0;
     this.refs.main.scrollTop = 0;
+    document.documentElement.style.scrollBehavior = "smooth";
   }
   render() {
     return (
@@ -36,6 +38,7 @@ class Kdkd extends React.Component {
           <UI_community />
         </main>
         <MyFooter />
+        <ScrollTopBtn />
       </>
     );
   }

@@ -11,6 +11,7 @@ import UI_user from "components/sgpg/UI_user.js";
 import UI_itemadd from "components/sgpg/UI_itemadd.js";
 import UI_itemdetail from "components/sgpg/UI_itemdetail.js";
 import MyFooter from "components/MyFooter.js";
+import ScrollTopBtn from "components/ScrollTop.js";
 
 class Sgpg extends React.Component {
   state = {};
@@ -18,6 +19,7 @@ class Sgpg extends React.Component {
     document.documentElement.scrollTop = 0;
     document.scrollingElement.scrollTop = 0;
     this.refs.main.scrollTop = 0;
+    document.documentElement.style.scrollBehavior = "smooth";
   }
   render() {
     return (
@@ -34,6 +36,7 @@ class Sgpg extends React.Component {
           <div id="itemdetail"><UI_itemdetail /></div>
         </main>
         <MyFooter />
+        <ScrollTopBtn />
       </>
     );
   }
