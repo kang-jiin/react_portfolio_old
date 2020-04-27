@@ -61,7 +61,7 @@ class UI_itemdetail extends React.Component {
                       <div>
                         <Badge
                           className="badge-circle mr-3"
-                          color="success"
+                          color="warning"
                         >
                         <i className="ni ni-satisfied" />
                         </Badge>
@@ -78,14 +78,14 @@ class UI_itemdetail extends React.Component {
                       <div>
                         <Badge
                           className="badge-circle mr-3"
-                          color="success"
+                          color="warning"
                         >
                         <i className="ni ni-satisfied" />
                         </Badge>
                       </div>
                       <div>
                         <h6 className="mb-0">
-                          남은 시간 비동기로 1초씩 줄어들게 구현
+                          남은 시간 비동기로 1초씩 감소
                         </h6>
                       </div>
                     </div>
@@ -95,7 +95,7 @@ class UI_itemdetail extends React.Component {
                       <div>
                         <Badge
                           className="badge-circle mr-3"
-                          color="success"
+                          color="warning"
                         >
                           <i className="ni ni-satisfied" />
                         </Badge>

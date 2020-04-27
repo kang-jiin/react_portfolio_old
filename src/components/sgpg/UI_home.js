@@ -19,7 +19,7 @@ class UI_home extends React.Component {
                 <div className="d-flex px-3">
                   <div>
                     <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                      <i className="fa fa-home text-primary" />
+                      <i className="ni ni-laptop text-primary" />
                     </div>
                   </div>
                   <div className="pl-4">
@@ -84,12 +84,12 @@ class UI_home extends React.Component {
                       </div>
                       <div className="pl-4">
                         <h5 className="title text-success">
-                          패이징
+                          페이징
                         </h5>
                       </div>
                     </div>
-                    <h6>한 페이지당 9개씩 나오도록 설정</h6>
-                    <h6>9개 초과 시 페이징 처리</h6>
+                    <h6>한 페이지당 9개 물품</h6>
+                    <h6>9개 초과 시 하단 페이징 처리</h6>
                   </CardBody>
                 </Card>
               </Col>

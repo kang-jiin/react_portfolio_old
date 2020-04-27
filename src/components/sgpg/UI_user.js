@@ -15,7 +15,7 @@ class UI_user extends React.Component {
         <Container>
           <Row className="row-grid align-items-center">
             <Col md="2">
-              <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-3">
+              <div className="icon icon-lg icon-shape icon-shape-primary shadow rounded-circle mb-3">
                 <i className="fa fa-user" />
               </div>
               <h3>회원 기능</h3>
@@ -60,7 +60,7 @@ class UI_user extends React.Component {
                     <div>
                       <Badge
                         className="badge-circle mr-3"
-                        color="success"
+                        color="primary"
                       >
                       <i className="ni ni-satisfied" />
                       </Badge>
@@ -77,7 +77,7 @@ class UI_user extends React.Component {
                     <div>
                       <Badge
                         className="badge-circle mr-3"
-                        color="success"
+                        color="primary"
                       >
                       <i className="ni ni-satisfied" />
                       </Badge>
@@ -94,7 +94,7 @@ class UI_user extends React.Component {
                     <div>
                       <Badge
                         className="badge-circle mr-3"
-                        color="success"
+                        color="primary"
                       >
                         <i className="ni ni-satisfied" />
                       </Badge>

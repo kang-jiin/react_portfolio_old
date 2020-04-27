@@ -94,7 +94,7 @@ class UI_inout extends React.Component {
                       <div>
                         <Badge
                           className="badge-circle mr-3"
-                          color="success"
+                          color="warning"
                         >
                         <i className="ni ni-satisfied" />
                         </Badge>
@@ -111,7 +111,7 @@ class UI_inout extends React.Component {
                       <div>
                         <Badge
                           className="badge-circle mr-3"
-                          color="success"
+                          color="warning"
                         >
                         <i className="ni ni-satisfied" />
                         </Badge>
@@ -128,7 +128,7 @@ class UI_inout extends React.Component {
                       <div>
                         <Badge
                           className="badge-circle mr-3"
-                          color="success"
+                          color="warning"
                         >
                           <i className="ni ni-satisfied" />
                         </Badge>

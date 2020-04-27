@@ -33,7 +33,7 @@ class UI_home extends React.Component {
                   <img
                     alt="..."
                     className="img-center img-fluid"
-                    src={require("assets/img/kdkd/kdkd_home3.png")}
+                    src={require("assets/img/kdkd/kdkd_home.png")}
                   />
                 </div>
               </Col>
@@ -78,6 +78,7 @@ class UI_home extends React.Component {
                 </Card>
               </Col>
             </Row>
+            <Row><br/><br/></Row>
           </Container>
           {/* SVG separator */}
           <div className="separator separator-bottom separator-skew zindex-100">

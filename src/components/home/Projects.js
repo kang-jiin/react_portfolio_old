@@ -26,7 +26,7 @@ class Projects extends React.Component {
                 >
                   <CardImg
                     alt="..."
-                    src={require("assets/img/kdkd/kdkd_home3.png")}
+                    src={require("assets/img/kdkd/kdkd_home.png")}
                   />
                 </a>
               </Card>
@@ -40,7 +40,7 @@ class Projects extends React.Component {
                 >
                   <CardImg
                     alt="..."
-                    src={require("assets/img/sgpg/4989.PNG")}
+                    src={require("assets/img/sgpg/4989.png")}
                   />
                 </a>
               </Card>
