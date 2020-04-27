@@ -26,7 +26,7 @@ class UI_itemdetail extends React.Component {
               <Col md="6">
                 <div className="pl-md-5">
                   <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-3">
-                    <i className="ni ni-settings" />
+                    <i className="ni ni-single-copy-04" />
                   </div>
                   <h3>물품 상세</h3>
                   <p className="lead">
@@ -63,7 +63,7 @@ class UI_itemdetail extends React.Component {
                           className="badge-circle mr-3"
                           color="success"
                         >
-                          <i className="ni ni-settings-gear-65" />
+                        <i className="ni ni-satisfied" />
                         </Badge>
                       </div>
                       <div>
@@ -80,7 +80,7 @@ class UI_itemdetail extends React.Component {
                           className="badge-circle mr-3"
                           color="success"
                         >
-                          <i className="ni ni-html5" />
+                        <i className="ni ni-satisfied" />
                         </Badge>
                       </div>
                       <div>

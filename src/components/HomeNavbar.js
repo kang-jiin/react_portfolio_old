@@ -51,15 +51,15 @@ class HomeNavbar extends React.Component {
           >
             <Container>
               {/* logo */}
-              <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
-                {/* <img
+              {/* <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
+                <img
                   alt="..."
                   src={require("assets/img/brand/argon-react-white.png")}
-                /> */}
+                />
                 <span className="nav-link-inner--text ml-2">
                   Home
                 </span>
-              </NavbarBrand>
+              </NavbarBrand> */}
               <button className="navbar-toggler" id="navbar_global">
                 <span className="navbar-toggler-icon" />
               </button>
@@ -73,15 +73,18 @@ class HomeNavbar extends React.Component {
                 <div className="navbar-collapse-header">
                   <Row>
                     <Col className="collapse-brand" xs="6">
-                      <Link to="/">
-                        {/* <img
+                      {/* <Link to="/">
+                        <img
                           alt="..."
                           src={require("assets/img/brand/argon-react.png")}
-                        /> */}
+                        />
                         <span className="nav-link-inner--text ml-2">
                           Home
                         </span>
-                      </Link>
+                      </Link> */}
+                        <span className="nav-link-inner--text ml-2">
+                          Menu
+                        </span>
                     </Col>
                     <Col className="collapse-close" xs="6">
                       <button className="navbar-toggler" id="navbar_global">
@@ -99,7 +102,7 @@ class HomeNavbar extends React.Component {
                         document.getElementById('aboutme').scrollIntoView();
                      }}
                     >
-                      <i className="fa fa-facebook-square d-lg-none" />
+                      <i className="fa fa-user-circle d-lg-none" />
                       <span className="nav-link-inner--text ml-2">
                         About Me
                       </span>
@@ -112,7 +115,7 @@ class HomeNavbar extends React.Component {
                         document.getElementById('skills').scrollIntoView();
                      }}
                     >
-                      <i className="fa fa-instagram d-lg-none" />
+                      <i className="fa fa-check d-lg-none" />
                       <span className="nav-link-inner--text ml-2">
                         Skills
                       </span>
@@ -125,7 +128,8 @@ class HomeNavbar extends React.Component {
                         document.getElementById('career').scrollIntoView();
                      }}
                     >
-                      <i className="fa fa-twitter-square d-lg-none" />
+                      {/* <i className="fa fa-upload d-lg-none" /> */}
+                      <i className="ni ni-user-run d-lg-none" />
                       <span className="nav-link-inner--text">
                         Career
                       </span>
@@ -138,7 +142,7 @@ class HomeNavbar extends React.Component {
                         document.getElementById('projects').scrollIntoView();
                      }}
                     >
-                      <i className="fa fa-github d-lg-none" />
+                      <i className="fa fa-code d-lg-none" />
                       <span className="nav-link-inner--text">
                         Projects
                       </span>

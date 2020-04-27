@@ -19,7 +19,7 @@ class UI_home extends React.Component {
                 <div className="d-flex px-3">
                   <div>
                     <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                      <i className="ni ni-check-bold text-primary" />
+                      <i className="fa fa-home text-primary" />
                     </div>
                   </div>
                   <div className="pl-4">
@@ -43,7 +43,7 @@ class UI_home extends React.Component {
                     <div className="d-flex align-items-center mb-2">
                       <div>
                         <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
-                          <i className="ni ni-satisfied" />
+                          <i className="fa fa-th-list" />
                         </div>
                       </div>
                       <div className="pl-4">
@@ -61,7 +61,7 @@ class UI_home extends React.Component {
                     <div className="d-flex align-items-center mb-2">
                       <div>
                         <div className="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                          <i className="ni ni-active-40" />
+                          <i className="fa fa-thumbs-o-up" />
                         </div>
                       </div>
                       <div className="pl-4">

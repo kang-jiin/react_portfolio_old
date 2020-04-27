@@ -23,7 +23,7 @@ class DataBase extends React.Component {
                             <Col md="4">
                                 <div className="pl-md-5">
                                     <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-4">
-                                        <i className="ni ni-settings" />
+                                        <i className="fa fa-database " />
                                     </div>
                                     <h4 className="display-3 mb-3">Database ERD</h4>
                                     <h6 className="">- 사용자</h6>

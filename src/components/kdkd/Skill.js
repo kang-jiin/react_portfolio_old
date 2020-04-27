@@ -19,7 +19,7 @@ class Skill extends React.Component {
                                 <div className="d-flex">
                                     <div>
                                         <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle">
-                                            <i className="ni ni-settings-gear-65" />
+                                            <i className="ni ni-check-bold " />
                                         </div>
                                     </div>
                                     <div className="pl-4">

@@ -56,7 +56,7 @@ class UI_inout extends React.Component {
               <Col md="7">
                 <div className="pl-md-5">
                   <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-3">
-                    <i className="ni ni-settings" />
+                    <i className="fa fa-bus" />
                   </div>
                   <h3>등하원</h3>
                   <p className="lead">
@@ -96,7 +96,7 @@ class UI_inout extends React.Component {
                           className="badge-circle mr-3"
                           color="success"
                         >
-                          <i className="ni ni-settings-gear-65" />
+                        <i className="ni ni-satisfied" />
                         </Badge>
                       </div>
                       <div>
@@ -113,7 +113,7 @@ class UI_inout extends React.Component {
                           className="badge-circle mr-3"
                           color="success"
                         >
-                          <i className="ni ni-html5" />
+                        <i className="ni ni-satisfied" />
                         </Badge>
                       </div>
                       <div>

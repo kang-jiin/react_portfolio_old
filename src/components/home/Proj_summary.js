@@ -96,7 +96,7 @@ class Proj_summary extends React.Component {
               <Card className="card-lift--hover shadow border-0">
                 <CardBody className="py-5">
                   <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
-                    <i className="ni ni-planet" />
+                    <i className="fa fa-gavel" />
                   </div>
                   <h6 className="text-warning text-uppercase">
                     사구팔구

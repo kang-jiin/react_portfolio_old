@@ -17,7 +17,7 @@ class UI_community extends React.Component {
                 <div className="d-flex px-3 justify-content-center">
                   <div>
                     <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle">
-                      <i className="ni ni-check-bold text-info" />
+                      <i className="fa fa-comments text-info" />
                     </div>
                   </div>
                   <div className="pl-4">
@@ -34,7 +34,7 @@ class UI_community extends React.Component {
             <Row className="row-grid mt-5">
               <Col lg="6">
                 <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle">
-                  <i className="ni ni-ruler-pencil text-info" />
+                  <i className="ni ni-bullet-list-67 text-info" />
                 </div>
                 <h5 className="mt-3">게시판</h5>
                 <p className="mt-3">
@@ -56,7 +56,7 @@ class UI_community extends React.Component {
             <Row className="row-grid mt-5 align-items-center">
               <Col lg="6">
                 <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle">
-                  <i className="ni ni-settings text-info" />
+                  <i className="ni ni-calendar-grid-58 text-info" />
                 </div>
                 <h5 className="mt-3">일정</h5>
                 <p className="mt-3">
@@ -67,7 +67,7 @@ class UI_community extends React.Component {
               </Col>
               <Col lg="6">
                 <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle">
-                  <i className="ni ni-ruler-pencil text-info" />
+                  <i className="ni ni-album-2 text-info" />
                 </div>
                 <h5 className="mt-3">알림장 / 앨범</h5>
                 <p className="mt-3">

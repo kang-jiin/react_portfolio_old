@@ -24,7 +24,7 @@ class UI_summary extends React.Component {
                   <Card className="card-lift--hover shadow border-0">
                     <CardBody className="py-5">
                       <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
-                        <i className="ni ni-istanbul" />
+                        <i className="fa fa-home" />
                       </div>
                       <h6 className="text-success text-uppercase">
                         Home
@@ -62,7 +62,7 @@ class UI_summary extends React.Component {
                   <Card className="card-lift--hover shadow border-0">
                     <CardBody className="py-5">
                       <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
-                        <i className="ni ni-check-bold" />
+                        <i className="fa fa-user" />
                       </div>
                       <h6 className="text-primary text-uppercase">
                         회원 기능
@@ -100,7 +100,7 @@ class UI_summary extends React.Component {
                   <Card className="card-lift--hover shadow border-0">
                     <CardBody className="py-5">
                       <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
-                        <i className="ni ni-planet" />
+                        <i className="ni ni-single-copy-04" />
                       </div>
                       <h6 className="text-warning text-uppercase">
                         물품 상세

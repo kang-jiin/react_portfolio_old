@@ -23,7 +23,7 @@ class UI_itemadd extends React.Component {
             <Col className="order-md-1" md="4">
               <div className="pr-md-5">
                 <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-3">
-                  <i className="ni ni-settings-gear-65" />
+                  <i className="ni ni-ruler-pencil" />
                 </div>
                 <h3>물품 등록</h3>
                 <p>
@@ -39,7 +39,7 @@ class UI_itemadd extends React.Component {
                           className="badge-circle mr-3"
                           color="success"
                         >
-                          <i className="ni ni-settings-gear-65" />
+                        <i className="ni ni-satisfied" />
                         </Badge>
                       </div>
                       <div>
@@ -56,7 +56,7 @@ class UI_itemadd extends React.Component {
                           className="badge-circle mr-3"
                           color="success"
                         >
-                          <i className="ni ni-html5" />
+                        <i className="ni ni-satisfied" />
                         </Badge>
                       </div>
                       <div>

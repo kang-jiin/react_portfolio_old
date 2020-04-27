@@ -38,7 +38,7 @@ class UI_admin extends React.Component {
                           className="badge-circle mr-3"
                           color="primary"
                         >
-                          <i className="ni ni-settings-gear-65" />
+                        <i className="ni ni-satisfied" />
                         </Badge>
                       </div>
                       <div>
@@ -55,7 +55,7 @@ class UI_admin extends React.Component {
                           className="badge-circle mr-3"
                           color="primary"
                         >
-                          <i className="ni ni-html5" />
+                        <i className="ni ni-satisfied" />
                         </Badge>
                       </div>
                       <div>

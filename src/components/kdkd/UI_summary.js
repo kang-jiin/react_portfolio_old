@@ -24,7 +24,7 @@ class UI_summary extends React.Component {
                   <Card className="card-lift--hover shadow border-0">
                     <CardBody className="py-5">
                       <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
-                        <i className="ni ni-check-bold" />
+                        <i className="fa fa-user" />
                       </div>
                       <h6 className="text-primary text-uppercase">
                         Login
@@ -61,7 +61,7 @@ class UI_summary extends React.Component {
                   <Card className="card-lift--hover shadow border-0">
                     <CardBody className="py-5">
                       <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
-                        <i className="ni ni-istanbul" />
+                        <i className="fa fa-bus" />
                       </div>
                       <h6 className="text-success text-uppercase">
                         등하원
@@ -98,7 +98,7 @@ class UI_summary extends React.Component {
                   <Card className="card-lift--hover shadow border-0">
                     <CardBody className="py-5">
                       <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
-                        <i className="ni ni-planet" />
+                        <i className="fa fa-cog" />
                       </div>
                       <h6 className="text-warning text-uppercase">
                         관리자
