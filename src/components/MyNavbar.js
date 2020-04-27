@@ -86,7 +86,7 @@ class MyNavbar extends React.Component {
                     <NavLink
                       href="/kdkd"
                     >
-                      <i className="fa fa-instagram d-lg-none" />
+                      <i className="ni ni-istanbul d-lg-none" />
                       <span className="nav-link-inner--text ml-2">
                         키드키득
                       </span>
@@ -96,7 +96,7 @@ class MyNavbar extends React.Component {
                     <NavLink
                       href="/sgpg"
                     >
-                      <i className="fa fa-twitter-square d-lg-none" />
+                      <i className="fa fa-gavel d-lg-none" />
                       <span className="nav-link-inner--text">
                         사구팔구
                       </span>

@@ -17,7 +17,7 @@ class UI_community extends React.Component {
                 <div className="d-flex px-3 justify-content-center">
                   <div>
                     <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle">
-                      <i className="fa fa-comments text-info" />
+                      <i className="fa fa-users text-info" />
                     </div>
                   </div>
                   <div className="pl-4">
@@ -44,12 +44,12 @@ class UI_community extends React.Component {
               </Col>
               <Col lg="6">
                 <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle">
-                  <i className="ni ni-settings text-info" />
+                  <i className="fa fa-comments text-info" />
                 </div>
                 <h5 className="mt-3">채팅</h5>
                 <p className="mt-3">
                   전체 채팅/ 반별 채팅 기능<br/>
-                  socet.io 모듈 이용
+                  socket.io 모듈 이용
                 </p>
               </Col>
             </Row>
