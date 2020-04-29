@@ -21,21 +21,21 @@ class Projects extends React.Component {
           href="/kdkd"
           >
           <Card className="card-lift--hover shadow border-0 mb-3">
-          <Row>
+          <Row className="py-3 align-items-center">
             <Col className="mb-5 mb-md-0" lg="6" >
               <CardImg
                 alt="..."
                 src={require("assets/img/kdkd/kdkd_home.png")}
               />
             </Col>
-            <Col className="align-self-center mt-1" lg="6" >
+            <Col className="" lg="6" >
               <div>
-                <h1 className="display-3">
+                <h1 className="display-3 text-primary">
                   키드키득{" "}
                 </h1>
-                <h1 className="display-4">
-                  <span>유치원 자동 등하원 관리 시스템</span>
-                </h1>
+                <h5>
+                  유치원 자동 등하원 관리 시스템
+                </h5>
               </div>
               <div>
                 <ul className="list-unstyled mt-4">
@@ -95,21 +95,21 @@ class Projects extends React.Component {
           href="/sgpg"
           >
           <Card className="card-lift--hover shadow border-0">
-          <Row>
+          <Row className="py-3 align-items-center">
             <Col className="mb-5 mb-md-0" lg="6" >
               <CardImg
                 alt="..."
                 src={require("assets/img/sgpg/4989.PNG")}
               />
             </Col>
-            <Col className="align-self-center mt-1" lg="6" >
+            <Col className="" lg="6" >
               <div>
-                <h1 className="display-3">
+                <h1 className="display-3 text-primary">
                   사구팔구
                 </h1>
-                <h1 className="display-4">
+                <h5>
                   <span>경매 중고 거래 사이트</span>
-                </h1>
+                </h5>
               </div>
               <div>
                 <ul className="list-unstyled mt-3">
