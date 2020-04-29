@@ -40,7 +40,7 @@ class Projects extends React.Component {
                 >
                   <CardImg
                     alt="..."
-                    src={require("assets/img/sgpg/4989.png")}
+                    src={require("assets/img/sgpg/4989.PNG")}
                   />
                 </a>
               </Card>
