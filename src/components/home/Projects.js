@@ -1,6 +1,7 @@
 import React from "react";
 // reactstrap components
 import {
+  Badge,
   Card,
   CardImg,
   Container,
@@ -16,36 +17,158 @@ class Projects extends React.Component {
         <h2 className="mt-0 mb-5" id="projects">
           <span>Projects</span>
         </h2>
+          <a
+          href="/kdkd"
+          >
+          <Card className="card-lift--hover shadow border-0 mb-3">
           <Row>
-            <Col className="mb-5 mb-md-0" md="6">
-              <Card className="card-lift--hover shadow border-0">
-                <a
-                // href="http://ec2-52-79-50-30.ap-northeast-2.compute.amazonaws.com:7777/"
-                // target="_blank"
-                href="/kdkd"
-                >
-                  <CardImg
-                    alt="..."
-                    src={require("assets/img/kdkd/kdkd_home.png")}
-                  />
-                </a>
-              </Card>
+            <Col className="mb-5 mb-md-0" lg="6" >
+              <CardImg
+                alt="..."
+                src={require("assets/img/kdkd/kdkd_home.png")}
+              />
             </Col>
-            <Col className="mb-5 mb-lg-0" md="6">
-              <Card className="card-lift--hover shadow border-0">
-                <a 
-                // href="http://ec2-52-79-50-30.ap-northeast-2.compute.amazonaws.com:8888/"
-                // target="_blank"
-                href="/sgpg"
-                >
-                  <CardImg
-                    alt="..."
-                    src={require("assets/img/sgpg/4989.PNG")}
-                  />
-                </a>
-              </Card>
+            <Col className="mb-5 mb-md-0" lg="6" >
+              <div>
+                <h1 className="display-3">
+                  키드키득{" "}
+                </h1>
+                <h1 className="display-4">
+                  <span>유치원 자동 등하원 관리 시스템</span>
+                </h1>
+              </div>
+              <div>
+                <ul className="list-unstyled mt-4">
+                  <li className="py-2">
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <Badge
+                          className="badge-circle mr-3"
+                          color="primary"
+                        >
+                          <i className="ni ni-satisfied" />
+                        </Badge>
+                      </div>
+                      <div>
+                        <h5 className="mb-0">개발 기간</h5>
+                      </div>
+                    </div>
+                    <h6 className="mb-0 ml-5">2019.12.05 ~ 2020.01.06</h6>
+                  </li>
+                  <li className="py-2">
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <Badge
+                          className="badge-circle mr-3"
+                          color="primary"
+                        >
+                          <i className="ni ni-satisfied" />
+                        </Badge>
+                      </div>
+                      <div>
+                        <h5 className="mb-0">개발 인원 : 3명</h5>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2"></li>
+                  <li className="py-2">
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <Badge
+                          className="badge-circle mr-3"
+                          color="primary"
+                        >
+                          <i className="ni ni-satisfied" />
+                        </Badge>
+                      </div>
+                      <div>
+                        <h5 className="mb-0">사용 기술</h5>
+                      </div>
+                    </div>
+                    <h6 className="mb-0 ml-5">Node.js, MySQL, HTML, CSS, Javascript, Bootstrap</h6>
+                  </li>
+                </ul>
+              </div>
             </Col>
           </Row>
+          </Card>
+          </a>
+          <a 
+          href="/sgpg"
+          >
+          <Card className="card-lift--hover shadow border-0">
+          <Row>
+            <Col className="mb-5 mb-md-0" lg="6" >
+              <CardImg
+                alt="..."
+                src={require("assets/img/sgpg/4989.PNG")}
+              />
+            </Col>
+            <Col className="mb-5 mb-md-0" lg="6" >
+              <div>
+                <h1 className="display-3">
+                  사구팔구{" "}
+                </h1>
+                <h1 className="display-4">
+                  <span>경매 중고 거래 사이트</span>
+                </h1>
+              </div>
+              <div>
+                <ul className="list-unstyled mt-4">
+                  <li className="py-2">
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <Badge
+                          className="badge-circle mr-3"
+                          color="primary"
+                        >
+                          <i className="ni ni-satisfied" />
+                        </Badge>
+                      </div>
+                      <div>
+                        <h5 className="mb-0">개발 기간</h5>
+                      </div>
+                    </div>
+                    <h6 className="mb-0 ml-5">2019.09.09 ~ 2019.10.11</h6>
+                  </li>
+                  <li className="py-2">
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <Badge
+                          className="badge-circle mr-3"
+                          color="primary"
+                        >
+                          <i className="ni ni-satisfied" />
+                        </Badge>
+                      </div>
+                      <div>
+                        <h5 className="mb-0">개발 인원 : 4명</h5>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2"></li>
+                  <li className="py-2">
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <Badge
+                          className="badge-circle mr-3"
+                          color="primary"
+                        >
+                          <i className="ni ni-satisfied" />
+                        </Badge>
+                      </div>
+                      <div>
+                        <h5 className="mb-0">사용 기술</h5>
+                      </div>
+                    </div>
+                    <h6 className="mb-0 ml-5">Node.js, MySQL, HTML, CSS, Javascript, Bootstrap</h6>
+                  </li>
+                </ul>
+              </div>
+            </Col>
+          </Row>
+          </Card>
+          </a>
         </Container>
       </>
     );

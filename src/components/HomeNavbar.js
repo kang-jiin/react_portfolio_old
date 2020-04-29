@@ -45,7 +45,7 @@ class HomeNavbar extends React.Component {
         <header className="header-global">
           <Navbar
             // className="navbar-main fixed-top navbar-transparent navbar-light"
-            className="fixed-top navbar-dark bg-primary"
+            className="fixed-top navbar-dark bg-default"
             expand="lg"
             // id="navbar-main"
           >
