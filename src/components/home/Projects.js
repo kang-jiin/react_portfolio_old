@@ -28,7 +28,7 @@ class Projects extends React.Component {
                 src={require("assets/img/kdkd/kdkd_home.png")}
               />
             </Col>
-            <Col className="mb-5 mb-md-0" lg="6" >
+            <Col className="align-self-center mt-1" lg="6" >
               <div>
                 <h1 className="display-3">
                   키드키득{" "}
@@ -50,10 +50,9 @@ class Projects extends React.Component {
                         </Badge>
                       </div>
                       <div>
-                        <h5 className="mb-0">개발 기간</h5>
+                        <h5 className="mb-0">개발 기간 : 2019.12.05 ~ 2020.01.06</h5>
                       </div>
                     </div>
-                    <h6 className="mb-0 ml-5">2019.12.05 ~ 2020.01.06</h6>
                   </li>
                   <li className="py-2">
                     <div className="d-flex align-items-center">
@@ -70,7 +69,6 @@ class Projects extends React.Component {
                       </div>
                     </div>
                   </li>
-                  <li className="py-2"></li>
                   <li className="py-2">
                     <div className="d-flex align-items-center">
                       <div>
@@ -104,17 +102,17 @@ class Projects extends React.Component {
                 src={require("assets/img/sgpg/4989.PNG")}
               />
             </Col>
-            <Col className="mb-5 mb-md-0" lg="6" >
+            <Col className="align-self-center mt-1" lg="6" >
               <div>
                 <h1 className="display-3">
-                  사구팔구{" "}
+                  사구팔구
                 </h1>
                 <h1 className="display-4">
                   <span>경매 중고 거래 사이트</span>
                 </h1>
               </div>
               <div>
-                <ul className="list-unstyled mt-4">
+                <ul className="list-unstyled mt-3">
                   <li className="py-2">
                     <div className="d-flex align-items-center">
                       <div>
@@ -126,10 +124,9 @@ class Projects extends React.Component {
                         </Badge>
                       </div>
                       <div>
-                        <h5 className="mb-0">개발 기간</h5>
+                        <h5 className="mb-0">개발 기간 : 2019.09.09 ~ 2019.10.11</h5>
                       </div>
                     </div>
-                    <h6 className="mb-0 ml-5">2019.09.09 ~ 2019.10.11</h6>
                   </li>
                   <li className="py-2">
                     <div className="d-flex align-items-center">
@@ -146,7 +143,6 @@ class Projects extends React.Component {
                       </div>
                     </div>
                   </li>
-                  <li className="py-2"></li>
                   <li className="py-2">
                     <div className="d-flex align-items-center">
                       <div>
