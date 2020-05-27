@@ -12,6 +12,7 @@ import Home from "views/Home.js";
 import Home_save from "views/Home save.js";
 import Kdkd from "views/Kdkd.js";
 import Sgpg from "views/Sgpg.js";
+import Football from "views/Football.js";
 import Landing from "views/examples/Landing.js";
 import Login from "views/examples/Login.js";
 import Profile from "views/examples/Profile.js";
@@ -31,6 +32,11 @@ ReactDOM.render(
         path="/sgpg"
         exact
         render={props => <Sgpg {...props} />}
+      />
+      <Route
+        path="/football"
+        exact
+        render={props => <Football {...props} />}
       />
       <Route
         path="/home"
