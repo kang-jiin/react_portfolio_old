@@ -4,3 +4,7 @@
     bottom: 1rem;
     right: 1rem;
     z-index: 1030; }
+
+.myfooter {
+    background: #ffffff;
+    padding: 1.5rem 0; }

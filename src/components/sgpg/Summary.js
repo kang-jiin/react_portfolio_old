@@ -51,7 +51,7 @@ class Summary extends React.Component {
                         <span className="btn-inner--icon mr-1">
                           <i className="fa fa-code" />
                         </span>
-                        <span className="btn-inner--text">View</span>
+                        <span className="btn-inner--text">Demo</span>
                       </Button>
                       <Button
                         className="btn-white btn-icon mb-3 mb-sm-0 ml-1"

@@ -11,7 +11,7 @@ import UI_login from "components/kdkd/UI_login.js";
 import UI_inout from "components/kdkd/UI_inout.js";
 import UI_admin from "components/kdkd/UI_admin.js";
 import UI_community from "components/kdkd/UI_community.js";
-import MyFooter from "components/MyFooter.js";
+import Demo from "components/kdkd/Demo.js";
 import ScrollTopBtn from "components/ScrollTop.js";
 
 class Kdkd extends React.Component {
@@ -37,7 +37,7 @@ class Kdkd extends React.Component {
           <div id="admin"><UI_admin /></div>
           <UI_community />
         </main>
-        <MyFooter />
+        <Demo />
         <ScrollTopBtn />
       </>
     );

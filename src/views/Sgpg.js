@@ -10,7 +10,7 @@ import UI_home from "components/sgpg/UI_home.js";
 import UI_user from "components/sgpg/UI_user.js";
 import UI_itemadd from "components/sgpg/UI_itemadd.js";
 import UI_itemdetail from "components/sgpg/UI_itemdetail.js";
-import MyFooter from "components/MyFooter.js";
+import Demo from "components/sgpg/Demo.js";
 import ScrollTopBtn from "components/ScrollTop.js";
 
 class Sgpg extends React.Component {
@@ -35,7 +35,7 @@ class Sgpg extends React.Component {
           <UI_itemadd />
           <div id="itemdetail"><UI_itemdetail /></div>
         </main>
-        <MyFooter />
+        <Demo />
         <ScrollTopBtn />
       </>
     );
