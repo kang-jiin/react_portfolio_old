@@ -7,12 +7,12 @@ class Skills extends React.Component {
   render() {
     return (
       <>
-      <section className="section section-components">
+      <section className="section section-components" id="skills">
         <Container>
-        <h2 className="mb-5" id="skills">
+        <h2 className="mt-5">
           <span>Skills</span>
         </h2>
-        <h3 className="h4 text-success font-weight-bold mt-5">Language</h3>
+        <h3 className="h4 text-success font-weight-bold mt-4">Language</h3>
         <Row>
           <Col sm="3" xs="6">
             <small className="d-block text-uppercase font-weight-bold mb-4">

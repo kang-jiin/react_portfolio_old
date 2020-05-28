@@ -15,7 +15,7 @@ class Proj_summary extends React.Component {
   render() {
     return (
       <>
-      <section className="section section-lg pt-lg-0 mt--200">
+      <section className="section py-lg-0 mt--200">
         <Container>
           <Row className="row-grid text-center justify-content-center">
             {/* <Col lg="4">

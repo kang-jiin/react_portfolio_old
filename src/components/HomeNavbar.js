@@ -96,12 +96,7 @@ class HomeNavbar extends React.Component {
                 </div>
                 <Nav className="align-items-lg-center" navbar>
                   <NavItem>
-                    <NavLink
-                      // href="https://www.facebook.com/creativetim"
-                      onClick={() => {
-                        document.getElementById('aboutme').scrollIntoView();
-                     }}
-                    >
+                    <NavLink href="#aboutme">
                       <i className="fa fa-user-circle d-lg-none" />
                       <span className="nav-link-inner--text ml-2">
                         About Me
@@ -109,12 +104,7 @@ class HomeNavbar extends React.Component {
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink
-                      // href="https://www.instagram.com/creativetimofficial"
-                      onClick={() => {
-                        document.getElementById('skills').scrollIntoView();
-                     }}
-                    >
+                    <NavLink href="#skills">
                       <i className="fa fa-check d-lg-none" />
                       <span className="nav-link-inner--text ml-2">
                         Skills
@@ -122,13 +112,7 @@ class HomeNavbar extends React.Component {
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink
-                      // href="https://twitter.com/creativetim"
-                      onClick={() => {
-                        document.getElementById('career').scrollIntoView();
-                     }}
-                    >
-                      {/* <i className="fa fa-upload d-lg-none" /> */}
+                    <NavLink href="#career">
                       <i className="ni ni-user-run d-lg-none" />
                       <span className="nav-link-inner--text">
                         Career
@@ -136,12 +120,7 @@ class HomeNavbar extends React.Component {
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink
-                      // href="https://github.com/creativetimofficial/argon-design-system-react"
-                      onClick={() => {
-                        document.getElementById('projects').scrollIntoView();
-                     }}
-                    >
+                    <NavLink href="#projects">
                       <i className="fa fa-code d-lg-none" />
                       <span className="nav-link-inner--text">
                         Projects

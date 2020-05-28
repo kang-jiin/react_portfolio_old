@@ -7,9 +7,9 @@ class Career extends React.Component {
   render() {
     return (
       <>
-      <section className="section section-components">
+      <section className="section section-components" id="career">
         <Container>
-        <h2 className="mt-lg mb-5" id="career">
+        <h2 className="mt-5">
           <span>Career</span>
         </h2>
         {/* <h3 className="h4 text-success font-weight-bold mt-md">Paragraphs</h3> */}
