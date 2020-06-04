@@ -1,11 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // JavaScript plugin that hides or shows a component based on your scroll
-// import Headroom from "headroom.js";
+import Headroom from "headroom.js";
 // reactstrap components
 import {
   Button,
   UncontrolledCollapse,
+  DropdownMenu,
+  DropdownItem,
+  DropdownToggle,
+  UncontrolledDropdown,
   NavbarBrand,
   Navbar,
   NavItem,
@@ -19,7 +23,7 @@ import {
 class HomeNavbar extends React.Component {
   componentDidMount() {
     // let headroom = new Headroom(document.getElementById("navbar-main"));
-    // initialise
+    // // initialise
     // headroom.init();
   }
   state = {
@@ -44,8 +48,9 @@ class HomeNavbar extends React.Component {
       <>
         <header className="header-global">
           <Navbar
-            // className="navbar-main fixed-top navbar-transparent navbar-light"
-            className="fixed-top navbar-dark bg-default"
+            className="py-2 fixed-top navbar-dark bg-default"
+            // className="navbar-main navbar-transparent navbar-light headroom"
+            // className="fixed-top navbar-dark bg-default navbar-transparent headroom"
             expand="lg"
             // id="navbar-main"
           >
@@ -94,6 +99,22 @@ class HomeNavbar extends React.Component {
                     </Col>
                   </Row>
                 </div>
+                <Nav className="navbar-nav-hover align-items-lg-center" navbar>
+                  <UncontrolledDropdown nav>
+                    <DropdownToggle nav>
+                      <i className="ni ni-collection d-lg-none mr-1" />
+                      <span className="nav-link-inner--text">HOME</span>
+                    </DropdownToggle>
+                    <DropdownMenu>
+                      <DropdownItem to="/kdkd" tag={Link}>
+                      키드키득
+                      </DropdownItem>
+                      <DropdownItem to="/sgpg" tag={Link}>
+                      사구팔구
+                      </DropdownItem>
+                    </DropdownMenu>
+                  </UncontrolledDropdown>
+                </Nav>
                 <Nav className="align-items-lg-center" navbar>
                   <NavItem>
                     <NavLink href="#aboutme">
