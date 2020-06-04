@@ -1,16 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
-// JavaScript plugin that hides or shows a component based on your scroll
-import Headroom from "headroom.js";
+
 // reactstrap components
 import {
   Button,
   UncontrolledCollapse,
-  DropdownMenu,
-  DropdownItem,
-  DropdownToggle,
-  UncontrolledDropdown,
-  NavbarBrand,
   Navbar,
   NavItem,
   NavLink,
@@ -20,11 +13,9 @@ import {
   Col
 } from "reactstrap";
 
-class HomeNavbar extends React.Component {
+class SubNavbar extends React.Component {
   componentDidMount() {
-    // let headroom = new Headroom(document.getElementById("navbar-main"));
-    // // initialise
-    // headroom.init();
+
   }
   state = {
     collapseClasses: "",
@@ -49,27 +40,14 @@ class HomeNavbar extends React.Component {
         <header className="header-global">
           <Navbar
             className="py-2 fixed-top navbar-dark bg-default"
-            // className="navbar-main navbar-transparent navbar-light headroom"
-            // className="fixed-top navbar-dark bg-default navbar-transparent headroom"
             expand="lg"
-            // id="navbar-main"
           >
             <Container>
-              {/* logo */}
-              {/* <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
-                <img
-                  alt="..."
-                  src={require("assets/img/brand/argon-react-white.png")}
-                />
-                <span className="nav-link-inner--text ml-2">
-                  Home
-                </span>
-              </NavbarBrand> */}
-              <button className="navbar-toggler" id="navbar_global">
+              <button className="navbar-toggler" id="navbar_global_sgpg">
                 <span className="navbar-toggler-icon" />
               </button>
               <UncontrolledCollapse
-                toggler="#navbar_global"
+                toggler="#navbar_global_sgpg"
                 navbar
                 className={this.state.collapseClasses}
                 onExiting={this.onExiting}
@@ -78,73 +56,56 @@ class HomeNavbar extends React.Component {
                 <div className="navbar-collapse-header">
                   <Row>
                     <Col className="collapse-brand" xs="6">
-                      {/* <Link to="/">
-                        <img
-                          alt="..."
-                          src={require("assets/img/brand/argon-react.png")}
-                        />
-                        <span className="nav-link-inner--text ml-2">
-                          Home
-                        </span>
-                      </Link> */}
-                        <span className="nav-link-inner--text ml-2">
-                          Menu
+                      <span className="nav-link-inner--text ml-2">
+                        Menu
                         </span>
                     </Col>
                     <Col className="collapse-close" xs="6">
-                      <button className="navbar-toggler" id="navbar_global">
+                      <button className="navbar-toggler" id="navbar_global_sgpg">
                         <span />
                         <span />
                       </button>
                     </Col>
                   </Row>
                 </div>
-                <Nav className="navbar-nav-hover align-items-lg-center" navbar>
-                  <UncontrolledDropdown nav>
-                    <DropdownToggle nav>
-                      <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">HOME</span>
-                    </DropdownToggle>
-                    <DropdownMenu>
-                      <DropdownItem to="/kdkd" tag={Link}>
-                      키드키득
-                      </DropdownItem>
-                      <DropdownItem to="/sgpg" tag={Link}>
-                      사구팔구
-                      </DropdownItem>
-                    </DropdownMenu>
-                  </UncontrolledDropdown>
-                </Nav>
                 <Nav className="align-items-lg-center" navbar>
                   <NavItem>
-                    <NavLink href="#aboutme">
+                    <NavLink href="#summary">
                       <i className="fa fa-user-circle d-lg-none" />
                       <span className="nav-link-inner--text ml-2">
-                        About Me
+                        Summary
                       </span>
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="#skills">
+                    <NavLink href="#skill">
                       <i className="fa fa-check d-lg-none" />
                       <span className="nav-link-inner--text ml-2">
-                        Skills
+                        Skill
                       </span>
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="#career">
+                    <NavLink href="#database">
                       <i className="ni ni-user-run d-lg-none" />
                       <span className="nav-link-inner--text">
-                        Career
+                        Database
                       </span>
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="#projects">
+                    <NavLink href="#ui">
                       <i className="fa fa-code d-lg-none" />
                       <span className="nav-link-inner--text">
-                        Projects
+                        UI
+                      </span>
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink href="#demo">
+                      <i className="fa fa-code d-lg-none" />
+                      <span className="nav-link-inner--text">
+                        Demo
                       </span>
                     </NavLink>
                   </NavItem>
@@ -175,4 +136,4 @@ class HomeNavbar extends React.Component {
   }
 }
 
-export default HomeNavbar;
+export default SubNavbar;

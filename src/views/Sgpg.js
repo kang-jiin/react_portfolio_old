@@ -1,6 +1,7 @@
 import React from "react";
 
 // core components
+import SubNavbar from "components/sgpg/SubNavbar.js";
 import MyNavbar from "components/MyNavbar.js";
 import Summary from "components/sgpg/Summary.js";
 import UI_summary from "components/sgpg/UI_summary.js";
@@ -24,6 +25,7 @@ class Sgpg extends React.Component {
   render() {
     return (
       <>
+        <SubNavbar />
         <MyNavbar />
         <main ref="main">
           <Summary />

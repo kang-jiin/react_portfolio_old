@@ -1,6 +1,7 @@
 import React from "react";
 
 // core components
+import SubNavbar from "components/kdkd/SubNavbar.js";
 import MyNavbar from "components/MyNavbar.js";
 import Summary from "components/kdkd/Summary.js";
 import UI_summary from "components/kdkd/UI_summary.js";
@@ -25,6 +26,7 @@ class Kdkd extends React.Component {
   render() {
     return (
       <>
+        <SubNavbar />
         <MyNavbar />
         <main ref="main">
           <Summary />

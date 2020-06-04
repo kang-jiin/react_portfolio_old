@@ -10,7 +10,7 @@ class DataBase extends React.Component {
     render() {
         return (
             <>
-                <section className="section bg-secondary">
+                <section className="section bg-secondary" id="database">
                     <Container>
                         <Row className="row-grid align-items-center">
                             <Col md="8">

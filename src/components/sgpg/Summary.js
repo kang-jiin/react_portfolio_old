@@ -13,7 +13,7 @@ class Summary extends React.Component {
   render() {
     return (
       <>
-        <div className="position-relative">
+        <div className="position-relative" id="summary">
           {/* shape Hero */}
           <section className="section section-lg section-shaped pb-250">
             <div className="shape shape-style-1 shape-default">

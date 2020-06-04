@@ -2,7 +2,7 @@ import React from "react";
 // nodejs library that concatenates classes
 
 // core components
-import HomeNavbar from "components/HomeNavbar.js";
+import HomeNavbar from "components/home/HomeNavbar.js";
 import MyNavbar from "components/MyNavbar.js";
 import AboutMe from "components/home/AboutMe.js";
 import Proj_summary from "components/home/Proj_summary.js";

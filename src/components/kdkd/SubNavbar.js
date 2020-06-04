@@ -1,12 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
-// JavaScript plugin that hides or shows a component based on your scroll
-import Headroom from "headroom.js";
+
 // reactstrap components
 import {
   Button,
   UncontrolledCollapse,
-  NavbarBrand,
   Navbar,
   NavItem,
   NavLink,
@@ -16,11 +13,9 @@ import {
   Col
 } from "reactstrap";
 
-class MyNavbar extends React.Component {
+class SubNavbar extends React.Component {
   componentDidMount() {
-    let headroom = new Headroom(document.getElementById("navbar-main"));
-    // initialise
-    headroom.init();
+
   }
   state = {
     collapseClasses: "",
@@ -44,22 +39,15 @@ class MyNavbar extends React.Component {
       <>
         <header className="header-global">
           <Navbar
-            className="fixed-top navbar-dark bg-default headroom"
+            className="py-2 fixed-top navbar-dark bg-default"
             expand="lg"
-            id="navbar-main"
           >
             <Container>
-              {/* logo */}
-              <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
-                <span className="nav-link-inner--text ml-2">
-                  Home
-                </span>
-              </NavbarBrand>
-              <button className="navbar-toggler" id="navbar_global">
+              <button className="navbar-toggler" id="navbar_global_kdkd">
                 <span className="navbar-toggler-icon" />
               </button>
               <UncontrolledCollapse
-                toggler="#navbar_global"
+                toggler="#navbar_global_kdkd"
                 navbar
                 className={this.state.collapseClasses}
                 onExiting={this.onExiting}
@@ -68,14 +56,12 @@ class MyNavbar extends React.Component {
                 <div className="navbar-collapse-header">
                   <Row>
                     <Col className="collapse-brand" xs="6">
-                      <Link to="/">
-                        <span className="nav-link-inner--text ml-2">
-                          Home
+                      <span className="nav-link-inner--text ml-2">
+                        Menu
                         </span>
-                      </Link>
                     </Col>
                     <Col className="collapse-close" xs="6">
-                      <button className="navbar-toggler" id="navbar_global">
+                      <button className="navbar-toggler" id="navbar_global_kdkd">
                         <span />
                         <span />
                       </button>
@@ -84,22 +70,42 @@ class MyNavbar extends React.Component {
                 </div>
                 <Nav className="align-items-lg-center" navbar>
                   <NavItem>
-                    <NavLink
-                      href="/kdkd"
-                    >
-                      <i className="ni ni-istanbul d-lg-none" />
+                    <NavLink href="#summary">
+                      <i className="fa fa-user-circle d-lg-none" />
                       <span className="nav-link-inner--text ml-2">
-                        키드키득
+                        Summary
                       </span>
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink
-                      href="/sgpg"
-                    >
-                      <i className="fa fa-gavel d-lg-none" />
+                    <NavLink href="#skill">
+                      <i className="fa fa-check d-lg-none" />
+                      <span className="nav-link-inner--text ml-2">
+                        Skill
+                      </span>
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink href="#database">
+                      <i className="ni ni-user-run d-lg-none" />
                       <span className="nav-link-inner--text">
-                        사구팔구
+                        Database
+                      </span>
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink href="#ui">
+                      <i className="fa fa-code d-lg-none" />
+                      <span className="nav-link-inner--text">
+                        UI
+                      </span>
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink href="#demo">
+                      <i className="fa fa-code d-lg-none" />
+                      <span className="nav-link-inner--text">
+                        Demo
                       </span>
                     </NavLink>
                   </NavItem>
@@ -130,4 +136,4 @@ class MyNavbar extends React.Component {
   }
 }
 
-export default MyNavbar;
+export default SubNavbar;

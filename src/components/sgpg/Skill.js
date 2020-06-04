@@ -12,7 +12,7 @@ class Skill extends React.Component {
     render() {
         return (
             <>
-                <section className="section section-lg">
+                <section className="section section-lg" id="skill">
                     <Container>
                         <Row className="row-grid align-items-center">
                             <Col classname="" md="12">
