@@ -44,7 +44,7 @@ class MyNavbar extends React.Component {
       <>
         <header className="header-global">
           <Navbar
-            className="fixed-top navbar-dark bg-primary"
+            className="nav-fixed-top navbar-dark bg-primary"
             expand="lg"
           >
             <Container>

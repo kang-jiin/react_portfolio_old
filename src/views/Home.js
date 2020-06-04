@@ -3,6 +3,7 @@ import React from "react";
 
 // core components
 import HomeNavbar from "components/HomeNavbar.js";
+import MyNavbar from "components/MyNavbar.js";
 import AboutMe from "components/home/AboutMe.js";
 import Proj_summary from "components/home/Proj_summary.js";
 import Career from "components/home/Career.js";
@@ -23,6 +24,7 @@ class Home extends React.Component {
     return (
       <>
         <HomeNavbar />
+        <MyNavbar />
         <main ref="main">
           <AboutMe />
           <Proj_summary />
