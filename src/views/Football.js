@@ -1,6 +1,7 @@
 import React from "react";
 
 // core components
+import SubNavbar from "components/football/SubNavbar.js";
 import MyNavbar from "components/MyNavbar.js";
 import Summary from "components/football/Summary.js";
 import UI_summary from "components/football/UI_summary.js";
@@ -25,6 +26,7 @@ class Football extends React.Component {
   render() {
     return (
       <>
+        <SubNavbar />
         <MyNavbar />
         <main ref="main">
           <Summary />
@@ -32,9 +34,9 @@ class Football extends React.Component {
           <Skill />
           <Database />
           <UI_home />
-          <div id="login"><UI_login /></div>
-          <div id="inout"><UI_inout /></div>
-          <div id="admin"><UI_admin /></div>
+          <UI_login />
+          <UI_inout />
+          <UI_admin />
           <UI_community />
         </main>
         <Demo />

@@ -12,8 +12,8 @@ class Skill extends React.Component {
     render() {
         return (
             <>
-                <section className="section section-lg">
-                    <Container>
+                <section className="section section-lg" id="skill">
+                    <Container className="mt-5">
                         <Row className="row-grid align-items-center">
                             <Col classname="" md="12">
                                 <div className="d-flex">
