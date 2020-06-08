@@ -11,8 +11,8 @@ class UI_user extends React.Component {
   render() {
     return (
       <>
-      <section className="section bg-secondary">
-        <Container>
+      <section className="section bg-secondary" id="user">
+        <Container className="mt-4">
           <Row className="row-grid align-items-center">
             <Col md="2">
               <div className="icon icon-lg icon-shape icon-shape-primary shadow rounded-circle mb-3">

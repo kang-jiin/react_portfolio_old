@@ -32,10 +32,10 @@ class Sgpg extends React.Component {
           <UI_summary />
           <Skill />
           <Database />
-          <div id="home"><UI_home /></div>
-          <div id="user"><UI_user /></div>
+          <UI_home />
+          <UI_user />
           <UI_itemadd />
-          <div id="itemdetail"><UI_itemdetail /></div>
+          <UI_itemdetail />
         </main>
         <Demo />
         <ScrollTopBtn />

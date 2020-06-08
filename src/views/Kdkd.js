@@ -34,9 +34,9 @@ class Kdkd extends React.Component {
           <Skill />
           <Database />
           <UI_home />
-          <div id="login"><UI_login /></div>
-          <div id="inout"><UI_inout /></div>
-          <div id="admin"><UI_admin /></div>
+          <UI_login />
+          <UI_inout />
+          <UI_admin />
           <UI_community />
         </main>
         <Demo />

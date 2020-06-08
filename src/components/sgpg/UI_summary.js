@@ -50,7 +50,7 @@ class UI_summary extends React.Component {
                         className="mt-4"
                         color="success"
                         onClick={() => {
-                          document.getElementById('home').scrollIntoView();
+                          document.getElementById('ui').scrollIntoView();
                         }}
                       >
                         Detail

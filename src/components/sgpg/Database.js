@@ -11,7 +11,7 @@ class DataBase extends React.Component {
         return (
             <>
                 <section className="section bg-secondary" id="database">
-                    <Container>
+                    <Container className="my-5">
                         <Row className="row-grid align-items-center">
                             <Col md="8">
                                 <img

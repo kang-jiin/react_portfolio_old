@@ -13,7 +13,7 @@ class Skill extends React.Component {
         return (
             <>
                 <section className="section section-lg" id="skill">
-                    <Container>
+                    <Container className="mt-5">
                         <Row className="row-grid align-items-center">
                             <Col classname="" md="12">
                                 <div className="d-flex">

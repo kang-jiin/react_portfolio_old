@@ -13,8 +13,8 @@ class UI_inout extends React.Component {
   render() {
     return (
       <>
-        <section className="section bg-secondary">
-          <Container>
+        <section className="section bg-secondary" id="inout">
+          <Container className="mt-4">
             <Row className="row-grid align-items-center">
               <Col md="5">
                 <Card className="bg-default shadow border-0">

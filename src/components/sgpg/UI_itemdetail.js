@@ -13,8 +13,8 @@ class UI_itemdetail extends React.Component {
   render() {
     return (
       <>
-        <section className="section bg-secondary">
-          <Container>
+        <section className="section bg-secondary" id="itemdetail">
+          <Container className="mt-4">
             <Row className="row-grid align-items-center">
               <Col md="6">
                 <img

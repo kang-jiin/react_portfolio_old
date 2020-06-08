@@ -13,7 +13,7 @@ class UI_home extends React.Component {
     return (
       <>
         <section className="section pb-0 bg-gradient-warning" id="ui">
-          <Container>
+          <Container className="my-5">
             <Row className="row-grid align-items-center">
               <Col md="12">
                 <div className="d-flex px-3">

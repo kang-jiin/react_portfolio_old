@@ -15,7 +15,7 @@ class Summary extends React.Component {
       <>
         <div className="position-relative" id="summary">
           {/* shape Hero */}
-          <section className="section section-lg section-shaped pb-250">
+          <section className="section section-lg section-shaped pb-250 mt-4">
             <div className="shape shape-style-1 shape-default">
               <span />
               <span />
