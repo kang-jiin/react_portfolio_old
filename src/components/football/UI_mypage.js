@@ -13,7 +13,7 @@ class UI_mypage extends React.Component {
   render() {
     return (
       <>
-        <section className="section bg-secondary">
+        <section className="section bg-secondary" id="mypage">
           <Container>
             <Row className="row-grid align-items-center">
               <Col className="mb-4" md="12">

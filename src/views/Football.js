@@ -12,8 +12,7 @@ import UI_postinsert from "components/football/UI_postinsert.js";
 import UI_postdetail from "components/football/UI_postdetail.js";
 import UI_apply from "components/football/UI_apply.js";
 import UI_mypage from "components/football/UI_mypage.js";
-import UI_admin from "components/football/UI_admin.js";
-import UI_community from "components/football/UI_community.js";
+import UI_evaluation from "components/football/UI_evaluation.js";
 import Demo from "components/football/Demo.js";
 import ScrollTopBtn from "components/ScrollTop.js";
 
@@ -40,8 +39,7 @@ class Football extends React.Component {
           <UI_postdetail />
           <UI_apply />
           <UI_mypage />
-          <UI_admin />
-          <UI_community />
+          <UI_evaluation />
         </main>
         <Demo />
         <ScrollTopBtn />

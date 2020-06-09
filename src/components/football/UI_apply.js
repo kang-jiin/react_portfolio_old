@@ -10,7 +10,7 @@ import {
 class UI_apply extends React.Component {
   render() {
     return (
-      <><section className="section section-lg">
+      <><section className="section section-lg" id="apply">
         <Container>
           <Row className="row-grid align-items-center">
             <Col className="order-md-2" md="8">
