@@ -13,23 +13,28 @@ class UI_postinsert extends React.Component {
       <><section className="section section-lg">
         <Container>
           <Row className="row-grid align-items-center">
-            <Col className="order-md-2" md="8">
+            <Col className="order-md-2" md="5">
               <img
                 alt="..."
-                className="img-fluid floating"
-                src={require("assets/img/sgpg/sgpg_itemadd.png")}
+                className="img-center img-fluid"
+                src={require("assets/img/football/post_insert.jpg")}
               />
             </Col>
-            <Col className="order-md-1" md="4">
+            <Col className="order-md-1" md="7">
               <div className="pr-md-5">
                 <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-3">
                   <i className="ni ni-ruler-pencil" />
                 </div>
-                <h3>물품 등록</h3>
+                <h3>공고 등록</h3>
                 <p>
-                  물품 등록은 회원만 가능하며, 모든 정보는 필수 입력 사항입니다.
-                  JQuery를 이용해 시작가격과 상한가는 숫자만 입력 가능하고,
-                  Summer Note를 사용해 상세 정보는 사진과 글을 함께 작성할 수 있습니다.
+                  공고 등록은 회원만 가능하며, 모든 정보는 필수 입력 사항입니다.
+                </p>
+                <p>
+                  Bootstrap DatePicker를 이용해 오늘 이후 날짜만 선택 가능하며,<br/>
+                  모임 장소는 도로명 주소 API로 입력할 수 있습니다.
+                </p>
+                <p>
+                  내용에는 Summer Note를 사용해 사진과 글을 함께 작성할 수 있습니다.
                 </p>
                 <ul className="list-unstyled mt-5">
                   <li className="py-2">
@@ -44,7 +49,7 @@ class UI_postinsert extends React.Component {
                       </div>
                       <div>
                         <h6 className="mb-0">
-                          시작 가격 / 상한가 숫자만 입력
+                          Bootstrap DatePicker 이용
                         </h6>
                       </div>
                     </div>
@@ -61,7 +66,7 @@ class UI_postinsert extends React.Component {
                       </div>
                       <div>
                         <h6 className="mb-0">
-                          상세 정보 Summer Note WYSIWYG 사용
+                          도로명 주소 API로 모임 장소 지정
                         </h6>
                       </div>
                     </div>
@@ -78,7 +83,7 @@ class UI_postinsert extends React.Component {
                       </div>
                       <div>
                         <h6 className="mb-0">
-                          등록 시 경매 시작, 7일 뒤 자동 경매 종료
+                          내용 Summer Note 사용
                         </h6>
                       </div>
                     </div>

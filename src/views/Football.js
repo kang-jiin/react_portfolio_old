@@ -10,7 +10,7 @@ import Database from "components/football/Database.js";
 import UI_home from "components/football/UI_home.js";
 import UI_postinsert from "components/football/UI_postinsert.js";
 import UI_postdetail from "components/football/UI_postdetail.js";
-import UI_login from "components/football/UI_login.js";
+import UI_apply from "components/football/UI_apply.js";
 import UI_inout from "components/football/UI_inout.js";
 import UI_admin from "components/football/UI_admin.js";
 import UI_community from "components/football/UI_community.js";
@@ -38,7 +38,7 @@ class Football extends React.Component {
           <UI_home />
           <UI_postinsert />
           <UI_postdetail />
-          <UI_login />
+          <UI_apply />
           <UI_inout />
           <UI_admin />
           <UI_community />

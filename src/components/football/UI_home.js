@@ -12,7 +12,7 @@ class UI_home extends React.Component {
   render() {
     return (
       <>
-        <section className="section pb-0 bg-gradient-warning" id="ui">
+        <section className="section pb-0 bg-gradient-info" id="ui">
           <Container className="mt-5">
             <Row className="row-grid align-items-center">
               <Col md="12">

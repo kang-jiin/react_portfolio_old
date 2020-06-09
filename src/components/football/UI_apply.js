@@ -7,7 +7,7 @@ import {
   Col
 } from "reactstrap";
 
-class UI_login extends React.Component {
+class UI_apply extends React.Component {
   render() {
     return (
       <><section className="section section-lg">
@@ -16,20 +16,26 @@ class UI_login extends React.Component {
             <Col className="order-md-2" md="8">
               <img
                 alt="..."
-                className="img-fluid floating"
-                src={require("assets/img/kdkd/kdkd_login3.png")}
+                className="img-center img-fluid"
+                src={require("assets/img/football/apply.PNG")}
               />
             </Col>
             <Col className="order-md-1" md="4">
               <div className="pr-md-5">
-                <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-3">
+                <div className="icon icon-lg icon-shape icon-shape-primary shadow rounded-circle mb-3">
                   <i className="fa fa-user" />
                 </div>
-                <h3>Login</h3>
+                <h3>신청</h3>
+                <p className="lead">
+                  신청 화면은 공고 정보 하단에 나타나고, 회원에게만 신청란과 버튼이 보여집니다.
+                </p>
                 <p>
-                  키드키득은 자체 계정, 네이버, 카카오 3가지를 지원합니다.
-                  자체 계정은 회원가입 시, SNS 간편 로그인은 최초 로그인 시 학생 등록을 해야만 서비스를 이용할 수 있습니다.
-                  키드키득의 모든 기능은 로그인을 해야만 이용할 수 있습니다.
+                  신청 후에는 자신의 신청 정보에 [신청 취소] 버튼이 나타납니다.
+                  중복 신청이 되지 않도록 신청란이 사라지고, '이미 신청된 공고입니다.'라는 메세지가 보여집니다.
+                </p>
+                <p>
+                  공고 등록자에게는 모든 신청자의 연락처가 함께 보여지고,
+                  상태에서 [수락] / [거절] 버튼으로 신청을 처리할 수 있습니다.
                 </p>
                 <ul className="list-unstyled mt-5">
                   <li className="py-2">
@@ -37,14 +43,14 @@ class UI_login extends React.Component {
                       <div>
                         <Badge
                           className="badge-circle mr-3"
-                          color="success"
+                          color="primary"
                         >
                         <i className="ni ni-satisfied" />
                         </Badge>
                       </div>
                       <div>
                         <h6 className="mb-0">
-                          키드키득 자체 계정
+                          회원만 신청/신청취소 가능
                         </h6>
                       </div>
                     </div>
@@ -54,14 +60,14 @@ class UI_login extends React.Component {
                       <div>
                         <Badge
                           className="badge-circle mr-3"
-                          color="success"
+                          color="primary"
                         >
                         <i className="ni ni-satisfied" />
                         </Badge>
                       </div>
                       <div>
                         <h6 className="mb-0">
-                          네이버/카카오 로그인 지원
+                          중복 신청 불가 및 메세지 표기
                         </h6>
                       </div>
                     </div>
@@ -71,14 +77,14 @@ class UI_login extends React.Component {
                       <div>
                         <Badge
                           className="badge-circle mr-3"
-                          color="success"
+                          color="primary"
                         >
                           <i className="ni ni-satisfied" />
                         </Badge>
                       </div>
                       <div>
                         <h6 className="mb-0">
-                          회원 가입 시 학생 등록 필수
+                          공고 등록자 수락/거절 기능
                         </h6>
                       </div>
                     </div>
@@ -94,4 +100,4 @@ class UI_login extends React.Component {
   }
 }
 
-export default UI_login;
+export default UI_apply;
