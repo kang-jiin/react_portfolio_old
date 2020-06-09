@@ -23,7 +23,7 @@ class UI_apply extends React.Component {
             <Col className="order-md-1" md="4">
               <div className="pr-md-5">
                 <div className="icon icon-lg icon-shape icon-shape-primary shadow rounded-circle mb-3">
-                  <i className="fa fa-user" />
+                  <i className="fa fa-users " />
                 </div>
                 <h3>신청</h3>
                 <p className="lead">
