@@ -20,14 +20,14 @@ class Projects extends React.Component {
             </h2>
             <a href="/kdkd" >
               <Card className="card-lift--hover shadow border-0 mb-3">
-                <Row className="py-3 align-items-center">
-                  <Col className="mb-5 mb-md-0" lg="6" >
+                <Row className="align-items-center m-0">
+                  <Col className="mb-md-0" lg="6" >
                     <CardImg
                       alt="..."
                       src={require("assets/img/kdkd/kdkd_home.png")}
                     />
                   </Col>
-                  <Col className="" lg="6" >
+                  <Col className="p-3" lg="6" >
                     <div>
                       <h1 className="display-3 text-primary">
                         키드키득{" "}
@@ -68,7 +68,7 @@ class Projects extends React.Component {
                             </div>
                           </div>
                         </li>
-                        <li className="py-2">
+                        <li className="">
                           <div className="d-flex align-items-center">
                             <div>
                               <Badge
@@ -91,15 +91,15 @@ class Projects extends React.Component {
               </Card>
             </a>
             <a href="/sgpg" >
-              <Card className="card-lift--hover shadow border-0">
-                <Row className="py-3 align-items-center">
-                  <Col className="mb-5 mb-md-0" lg="6" >
+              <Card className="card-lift--hover shadow border-0 mb-3">
+                <Row className="align-items-center m-0">
+                  <Col className="mb-md-0" lg="6" >
                     <CardImg
                       alt="..."
                       src={require("assets/img/sgpg/4989.PNG")}
                     />
                   </Col>
-                  <Col className="" lg="6" >
+                  <Col className="p-3" lg="6" >
                     <div>
                       <h1 className="display-3 text-primary">
                         사구팔구
@@ -140,7 +140,7 @@ class Projects extends React.Component {
                             </div>
                           </div>
                         </li>
-                        <li className="py-2">
+                        <li className="">
                           <div className="d-flex align-items-center">
                             <div>
                               <Badge
@@ -155,6 +155,78 @@ class Projects extends React.Component {
                             </div>
                           </div>
                           <h6 className="mb-0 ml-5">Node.js, MySQL, HTML, CSS, Javascript, Bootstrap</h6>
+                        </li>
+                      </ul>
+                    </div>
+                  </Col>
+                </Row>
+              </Card>
+            </a>
+            <a href="/football" >
+              <Card className="card-lift--hover shadow border-0 mb-3">
+                <Row className="align-items-center m-0">
+                  <Col className="mb-md-0" lg="6" >
+                    <CardImg
+                      alt="..."
+                      src={require("assets/img/football/home.jpg")}
+                    />
+                  </Col>
+                  <Col className="p-3" lg="6" >
+                    <div>
+                      <h1 className="display-3 text-primary">
+                        모두의 풋살{" "}
+                      </h1>
+                      <h5>
+                        풋살 경기 매칭 서비스
+                      </h5>
+                    </div>
+                    <div>
+                      <ul className="list-unstyled mt-4">
+                        <li className="py-2">
+                          <div className="d-flex align-items-center">
+                            <div>
+                              <Badge
+                                className="badge-circle mr-3"
+                                color="primary"
+                              >
+                                <i className="ni ni-satisfied" />
+                              </Badge>
+                            </div>
+                            <div>
+                              <h5 className="mb-0">개발 기간 : 2020.05.14 ~ 2020.05.27</h5>
+                            </div>
+                          </div>
+                        </li>
+                        <li className="py-2">
+                          <div className="d-flex align-items-center">
+                            <div>
+                              <Badge
+                                className="badge-circle mr-3"
+                                color="primary"
+                              >
+                                <i className="ni ni-satisfied" />
+                              </Badge>
+                            </div>
+                            <div>
+                              <h5 className="mb-0">개발 인원 : 4명</h5>
+                            </div>
+                          </div>
+                        </li>
+                        <li className="">
+                          <div className="d-flex align-items-center">
+                            <div>
+                              <Badge
+                                className="badge-circle mr-3"
+                                color="primary"
+                              >
+                                <i className="ni ni-satisfied" />
+                              </Badge>
+                            </div>
+                            <div>
+                              <h5 className="mb-0">사용 기술</h5>
+                            </div>
+                          </div>
+                          <h6 className="mb-0 ml-5">Java, Spring 5v, Oracle(AWS RDS), Apach Tomcat, JSP</h6>
                         </li>
                       </ul>
                     </div>

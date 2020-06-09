@@ -103,6 +103,16 @@ class MyNavbar extends React.Component {
                       </span>
                     </NavLink>
                   </NavItem>
+                  <NavItem>
+                    <NavLink
+                      href="/football"
+                    >
+                      <i className="fa fa-futbol-o d-lg-none" />
+                      <span className="nav-link-inner--text ml-2">
+                        모두의 풋살
+                      </span>
+                    </NavLink>
+                  </NavItem>
                 </Nav>
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
                   <NavItem className="d-none d-lg-block ml-lg-4">

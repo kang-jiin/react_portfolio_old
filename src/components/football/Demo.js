@@ -14,7 +14,7 @@ class Demo extends React.Component {
   render() {
     return (
       <>
-        <footer className="myfooter my-has-cards">
+        <footer className="myfooter my-has-cards" id="demo">
           {/* <Container>
             <Row className=" row-grid align-items-center mt-5">
               <Col>
