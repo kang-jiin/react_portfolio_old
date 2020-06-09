@@ -71,7 +71,7 @@ class SubNavbar extends React.Component {
                 <Nav className="align-items-lg-center" navbar>
                   <NavItem>
                     <NavLink href="#summary">
-                      <i className="fa fa-user-circle d-lg-none" />
+                      <i className="fa fa-pencil-square-o d-lg-none" />
                       <span className="nav-link-inner--text ml-2">
                         Summary
                       </span>
@@ -87,7 +87,7 @@ class SubNavbar extends React.Component {
                   </NavItem>
                   <NavItem>
                     <NavLink href="#database">
-                      <i className="ni ni-user-run d-lg-none" />
+                      <i className="fa fa-database d-lg-none" />
                       <span className="nav-link-inner--text">
                         Database
                       </span>
@@ -95,7 +95,7 @@ class SubNavbar extends React.Component {
                   </NavItem>
                   <NavItem>
                     <NavLink href="#ui">
-                      <i className="fa fa-code d-lg-none" />
+                      <i className="ni ni-laptop d-lg-none" />
                       <span className="nav-link-inner--text">
                         UI
                       </span>
@@ -103,7 +103,7 @@ class SubNavbar extends React.Component {
                   </NavItem>
                   <NavItem>
                     <NavLink href="#demo">
-                      <i className="fa fa-code d-lg-none" />
+                      <i className="ni ni-controller d-lg-none" />
                       <span className="nav-link-inner--text">
                         Demo
                       </span>

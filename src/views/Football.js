@@ -1,7 +1,7 @@
 import React from "react";
 
 // core components
-import SubNavbar from "components/football/SubNavbar.js";
+import SubNavbar from "components/SubNavbar.js";
 import MyNavbar from "components/MyNavbar.js";
 import Summary from "components/football/Summary.js";
 import UI_summary from "components/football/UI_summary.js";
