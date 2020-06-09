@@ -58,10 +58,10 @@ class Proj_summary extends React.Component {
             <Col lg="4">
               <Card className="card-lift--hover shadow border-0">
                 <CardBody className="py-5">
-                  <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
+                  <div className="icon icon-shape icon-shape-info rounded-circle mb-4">
                     <i className="ni ni-istanbul" />
                   </div>
-                  <h6 className="text-success text-uppercase">
+                  <h6 className="text-info text-uppercase">
                     키드키득
                   </h6>
                   <p className="description mt-3">
@@ -70,13 +70,13 @@ class Proj_summary extends React.Component {
                     DB 설계 및 Back-End 개발 담당
                 </p>
                   <div>
-                    <Badge color="success" pill className="mr-2">
+                    <Badge color="info" pill className="mr-2">
                       IoT
                     </Badge>
-                    <Badge color="success" pill className="mr-2">
+                    <Badge color="info" pill className="mr-2">
                       Node.js
                     </Badge>
-                    <Badge color="success" pill className="mr-2">
+                    <Badge color="info" pill className="mr-2">
                       Mysql
                     </Badge>
                   </div>
@@ -84,7 +84,7 @@ class Proj_summary extends React.Component {
                     <Button
                       href="/kdkd"
                       className="mt-4"
-                      color="success"
+                      color="info"
                     >
                       Detail
                     </Button>
@@ -122,6 +122,43 @@ class Proj_summary extends React.Component {
                       href="/sgpg"
                       className="mt-4"
                       color="warning"
+                    >
+                      Detail
+                    </Button>
+                  </div>
+                </CardBody>
+              </Card>
+            </Col>
+            <Col lg="4">
+              <Card className="card-lift--hover shadow border-0">
+                <CardBody className="py-5">
+                  <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
+                    <i className="fa fa-futbol-o" />
+                  </div>
+                  <h6 className="text-success text-uppercase">
+                    모두의 풋살
+                  </h6>
+                  <p className="description mt-3">
+                    풋살 경기 매칭 서비스<br />
+                    2020.05.14 ~ 2020.05.27<br />
+                    Front-End 개발 및 Git관리 담당
+                  </p>
+                  <div>
+                    <Badge color="success" pill className="mr-2">
+                      Spring
+                    </Badge>
+                    <Badge color="success" pill className="mr-2">
+                      oracle
+                    </Badge>
+                    <Badge color="success" pill className="mr-2">
+                      Git
+                    </Badge>
+                  </div>
+                  <div className="text-center">
+                    <Button
+                      href="/football"
+                      className="mt-4"
+                      color="success"
                     >
                       Detail
                     </Button>
