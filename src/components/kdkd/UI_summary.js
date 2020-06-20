@@ -74,13 +74,13 @@ class UI_summary extends React.Component {
                       <div>
                         <Badge color="success" pill className="mr-1">
                           Arduino uno
-                      </Badge>
+                        </Badge>
                         <Badge color="success" pill className="mr-1">
-                          PHP / APACHE
-                      </Badge>
+                          PHP
+                        </Badge>
                         <Badge color="success" pill className="mr-1">
-                          Mysql
-                      </Badge>
+                          APACHE
+                        </Badge>
                       </div>
                       <Button
                         className="mt-4"
