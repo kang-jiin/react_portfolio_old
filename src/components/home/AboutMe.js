@@ -18,8 +18,8 @@ class AboutMe extends React.Component {
     const typing = setInterval(() =>{
       const typed1 = this.state.text1;
       const typed2 = this.state.text2;
-      const finalText1= "Web Developer";
-      const finalText2= "PortFolio";
+      const finalText1= "Kang Ji In";
+      const finalText2= "Web PortFolio";
 
       if(i<finalText1.length) { 
         this.setState ({
@@ -32,7 +32,8 @@ class AboutMe extends React.Component {
           text2: typed2 + finalText2[i-finalText1.length]
         });
         i++
-      } else {
+      }
+      else {
         clearInterval(typing);
       }
     },150);
