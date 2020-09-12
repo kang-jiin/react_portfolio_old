@@ -1,7 +1,7 @@
 import React from "react";
 
 // reactstrap components
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row, Col, Badge } from "reactstrap";
 
 class Career extends React.Component {
   render() {
@@ -78,7 +78,13 @@ class Career extends React.Component {
           </Col>
           <Col sm="9">
             <p className="text-lead">
-              한국정보기술연구원 이공계 전문기술 연수 과정 수강중 (2020.04 ~ 2020.09)
+              한국정보기술연구원 이공계 전문기술 연수 과정 (2020.04 ~ 2020.07) - 조기수료
+            </p>
+            <p className="text-lead">
+              삼양데이타시스템 SM팀 인턴 (2020.07 ~ 2020.10)
+              <Badge color="success" pill className="ml-2">
+                NEW
+              </Badge>
             </p>
           </Col>
         </Row>
