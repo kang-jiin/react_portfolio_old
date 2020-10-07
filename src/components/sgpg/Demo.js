@@ -30,7 +30,7 @@ class Demo extends React.Component {
                 <Card className="card-lift--hover shadow border-0">
                   <Button
                     className="p-0"
-                    href="http://sgpg.kangjiinportfolio.ga/"
+                    href="http://sgpg.kangjiinportfolio.cf/"
                     target="_blank"
                   >
                     <CardImg
