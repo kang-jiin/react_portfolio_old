@@ -15,33 +15,23 @@ class Career extends React.Component {
         {/* <h3 className="h4 text-success font-weight-bold mt-md">Paragraphs</h3> */}
         <Row className="py-3 align-items-center">
           <Col sm="3">
-            <h4 className="display-4 text-muted">2015</h4>
+            <h4 className="display-4 text-muted">2016 이전</h4>
           </Col>
           <Col sm="9">
             <p className="text-lead">
               (주)그랜드 연구소 인턴 제어 프로그램 개발 (2015.12 ~ 2016.02)
             </p>
-          </Col>
-        </Row>
-        <Row className="py-3 align-items-center">
-          <Col sm="3">
-            <h4 className="display-4 text-primary">2016</h4>
-          </Col>
-          <Col sm="9">
             <p className="text-lead">
               의공학부 학부연구생 멸균기 제어 프로젝트 참여 (2016.02 ~ 2016.10)
             </p>
             <p className="text-lead">
               (주)퀀텀게이트 개발팀 인턴 (2016.07 ~ 2016.10)
             </p>
-            <p className="text-lead">
-              입학홍보처 사무보조 (2016.08 ~ 2017.02)
-            </p>
           </Col>
         </Row>
         <Row className="py-3 align-items-center">
           <Col sm="3">
-            <h4 className="display-4 text-info">2017</h4>
+            <h4 className="display-4 text-primary">2017</h4>
           </Col>
           <Col sm="9">
             <p className="text-lead">
@@ -51,17 +41,17 @@ class Career extends React.Component {
         </Row>
         <Row className="py-3 align-items-center">
           <Col sm="3">
-            <h4 className="display-4 text-success">2018</h4>
+            <h4 className="display-4 text-info">2018</h4>
           </Col>
           <Col sm="9">
             <p className="text-lead">
               이코딩아카데미 강의 및 컨텐츠 개발(2018.10 ~ 2019.05)
-              </p>
+            </p>
           </Col>
         </Row>
         <Row className="py-3 align-items-center">
           <Col sm="3">
-            <h4 className="display-4 text-warning">2019</h4>
+            <h4 className="display-4 text-success">2019</h4>
           </Col>
           <Col sm="9">
             <p className="text-lead">
@@ -74,7 +64,7 @@ class Career extends React.Component {
         </Row>
         <Row className="py-3 align-items-center">
           <Col sm="3">
-            <h4 className="display-4 text-danger">2020</h4>
+            <h4 className="display-4 text-warning">2020</h4>
           </Col>
           <Col sm="9">
             <p className="text-lead">
@@ -82,6 +72,19 @@ class Career extends React.Component {
             </p>
             <p className="text-lead">
               삼양데이타시스템 SM팀 인턴 (2020.07 ~ 2020.10)
+              <Badge color="success" pill className="ml-2">
+                NEW
+              </Badge>
+            </p>
+          </Col>
+        </Row>
+        <Row className="py-3 align-items-center">
+          <Col sm="3">
+            <h4 className="display-4 text-danger">2021</h4>
+          </Col>
+          <Col sm="9">
+            <p className="text-lead">
+              아주대의료원 의료정보학과 연구실 개발팀 (2021.01 ~ 현재)
               <Badge color="success" pill className="ml-2">
                 NEW
               </Badge>
