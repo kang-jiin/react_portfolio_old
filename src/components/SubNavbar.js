@@ -101,14 +101,14 @@ class SubNavbar extends React.Component {
                       </span>
                     </NavLink>
                   </NavItem>
-                  <NavItem>
+                  {/* <NavItem>
                     <NavLink href="#demo">
                       <i className="ni ni-controller d-lg-none" />
                       <span className="nav-link-inner--text">
                         Demo
                       </span>
                     </NavLink>
-                  </NavItem>
+                  </NavItem> */}
                 </Nav>
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
                   <NavItem className="d-none d-lg-block ml-lg-4">

@@ -42,7 +42,7 @@ class Summary extends React.Component {
                       </h1>
                     </div>
                     <div className="btn-wrappe align-self-left mt-auto p-2">
-                      <Button
+                      {/* <Button
                         className="btn-icon mb-3 mb-sm-0"
                         color="info"
                         href="http://sgpg.kangjiinportfolio.cf"
@@ -52,7 +52,7 @@ class Summary extends React.Component {
                           <i className="fa fa-code" />
                         </span>
                         <span className="btn-inner--text">Demo</span>
-                      </Button>
+                      </Button> */}
                       <Button
                         className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                         color="default"

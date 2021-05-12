@@ -16,7 +16,7 @@ class Demo extends React.Component {
       <>
         <footer className="myfooter my-has-cards" id="demo">
           <Container>
-            <Row className=" row-grid align-items-center mt-5">
+            {/* <Row className=" row-grid align-items-center mt-5">
               <Col>
                 <h3 className=" text-primary font-weight-light mb-4">
                   AWS DEMO
@@ -49,7 +49,7 @@ class Demo extends React.Component {
                   게스트 로그인으로 사구팔구 시스템을 테스트 할 수 있습니다!
                 </h4>
               </Col>
-            </Row>
+            </Row> */}
             <hr />
             <Row className=" align-items-center justify-content-md-between">
               <Col md="6">
