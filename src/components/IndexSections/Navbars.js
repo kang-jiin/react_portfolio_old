@@ -35,6 +35,8 @@ import {
   Col
 } from "reactstrap";
 
+import argon_react from 'assets/img/brand/argon-react.png';
+
 class Navbars extends React.Component {
   render() {
     return (
@@ -62,7 +64,7 @@ class Navbars extends React.Component {
                       <Link to="/">
                         <img
                           alt="..."
-                          src={require("assets/img/brand/argon-react.png")}
+                          src={argon_react}
                         />
                       </Link>
                     </Col>
@@ -151,7 +153,7 @@ class Navbars extends React.Component {
                       <Link to="/">
                         <img
                           alt="..."
-                          src={require("assets/img/brand/argon-react.png")}
+                          src={argon_react}
                         />
                       </Link>
                     </Col>
@@ -221,7 +223,7 @@ class Navbars extends React.Component {
                       <Link to="/">
                         <img
                           alt="..."
-                          src={require("assets/img/brand/argon-react.png")}
+                          src={argon_react}
                         />
                       </Link>
                     </Col>
@@ -310,7 +312,7 @@ class Navbars extends React.Component {
                       <Link to="/">
                         <img
                           alt="..."
-                          src={require("assets/img/brand/argon-react.png")}
+                          src={argon_react}
                         />
                       </Link>
                     </Col>
@@ -391,7 +393,7 @@ class Navbars extends React.Component {
                       <Link to="/">
                         <img
                           alt="..."
-                          src={require("assets/img/brand/argon-react.png")}
+                          src={argon_react}
                         />
                       </Link>
                     </Col>
@@ -460,7 +462,7 @@ class Navbars extends React.Component {
                       <Link to="/">
                         <img
                           alt="..."
-                          src={require("assets/img/brand/argon-react.png")}
+                          src={argon_react}
                         />
                       </Link>
                     </Col>

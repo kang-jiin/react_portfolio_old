@@ -6,6 +6,8 @@ import {
     Col
 } from "reactstrap";
 
+import img_4989_erd from 'assets/img/sgpg/4989_erd.png';
+
 class DataBase extends React.Component {
     render() {
         return (
@@ -17,7 +19,7 @@ class DataBase extends React.Component {
                                 <img
                                     alt="..."
                                     className="img-fluid floating"
-                                    src={require("assets/img/sgpg/4989_erd.png")}
+                                    src={img_4989_erd}
                                 />
                             </Col>
                             <Col md="4">

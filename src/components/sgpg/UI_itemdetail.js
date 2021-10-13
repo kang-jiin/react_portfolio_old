@@ -9,6 +9,9 @@ import {
   Col
 } from "reactstrap";
 
+import sgpg_itemdetail from 'assets/img/sgpg/sgpg_itemdetail.png';
+import sgpg_itemdetail2 from 'assets/img/sgpg/sgpg_itemdetail2.png';
+
 class UI_itemdetail extends React.Component {
   render() {
     return (
@@ -20,7 +23,7 @@ class UI_itemdetail extends React.Component {
                 <img
                   alt="..."
                   className="img-center img-fluid"
-                  src={require("assets/img/sgpg/sgpg_itemdetail.png")}
+                  src={sgpg_itemdetail}
                 />
               </Col>
               <Col md="6">
@@ -113,7 +116,7 @@ class UI_itemdetail extends React.Component {
                 <img
                   alt="..."
                   className="img-center img-fluid"
-                  src={require("assets/img/sgpg/sgpg_itemdetail2.png")}
+                  src={sgpg_itemdetail2}
                 />
               </Col>
             </Row>

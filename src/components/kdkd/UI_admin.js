@@ -7,6 +7,8 @@ import {
   Col
 } from "reactstrap";
 
+import kdkd_admin from 'assets/img/kdkd/kdkd_admin.png';
+
 class UI_admin extends React.Component {
   render() {
     return (
@@ -17,7 +19,7 @@ class UI_admin extends React.Component {
               <img
                 alt="..."
                 className="img-center img-fluid"
-                src={require("assets/img/kdkd/kdkd_admin.png")}
+                src={kdkd_admin}
               />
             </Col>
             <Col className="order-md-1" md="4">

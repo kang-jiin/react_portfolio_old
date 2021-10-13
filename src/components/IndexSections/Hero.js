@@ -20,6 +20,9 @@ import React from "react";
 // reactstrap components
 import { Button, Container, Row, Col } from "reactstrap";
 
+import argon_react_white from 'assets/img/brand/argon-react-white.png';
+import creativetim_white_slim from 'assets/img/brand/creativetim-white-slim.png';
+
 class Hero extends React.Component {
   render() {
     return (
@@ -47,7 +50,7 @@ class Hero extends React.Component {
                     <img
                       alt="..."
                       className="img-fluid"
-                      src={require("assets/img/brand/argon-react-white.png")}
+                      src={argon_react_white}
                       style={{ width: "200px" }}
                     />
                     <p className="lead text-white">
@@ -90,7 +93,7 @@ class Hero extends React.Component {
                         alt="..."
                         className="ml-1"
                         style={{ height: "28px" }}
-                        src={require("assets/img/brand/creativetim-white-slim.png")}
+                        src={creativetim_white_slim}
                       />
                     </div>
                   </Col>

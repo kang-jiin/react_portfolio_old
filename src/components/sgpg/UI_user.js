@@ -7,6 +7,9 @@ import {
   Col
 } from "reactstrap";
 
+import user from 'assets/img/sgpg/user.png';
+import mypage from 'assets/img/sgpg/mypage.png';
+
 class UI_user extends React.Component {
   render() {
     return (
@@ -25,7 +28,7 @@ class UI_user extends React.Component {
                   <img
                     alt="..."
                     className="img-center img-fluid"
-                    src={require("assets/img/sgpg/user.png")}
+                    src={user}
                   />
                 </div>
             </Col>
@@ -45,7 +48,7 @@ class UI_user extends React.Component {
               <img
                 alt="..."
                 className="img-center img-fluid"
-                src={require("assets/img/sgpg/mypage.png")}
+                src={mypage}
               />
             </Col>
             <Col md="6">

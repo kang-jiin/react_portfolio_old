@@ -7,6 +7,9 @@ import {
   Col
 } from "reactstrap";
 
+import evaluation_insert from 'assets/img/football/evaluation_insert.jpg';
+import evaluation_detail from 'assets/img/football/evaluation_detail.jpg';
+
 class UI_evaluation extends React.Component {
   render() {
     return (
@@ -18,7 +21,7 @@ class UI_evaluation extends React.Component {
               <img
                 alt="..."
                 className="img-center img-fluid"
-                src={require("assets/img/football/evaluation_insert.jpg")}
+                src={evaluation_insert}
               />
             </Col>
             <Col className="order-md-1" md="7">
@@ -45,7 +48,7 @@ class UI_evaluation extends React.Component {
               <img
                 alt="..."
                 className="img-center img-fluid"
-                src={require("assets/img/football/evaluation_detail.jpg")}
+                src={evaluation_detail}
               />
             </Col>
             <Col md="6">

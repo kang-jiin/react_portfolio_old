@@ -7,6 +7,8 @@ import {
   Col
 } from "reactstrap";
 
+import apply from 'assets/img/football/apply.PNG';
+
 class UI_apply extends React.Component {
   render() {
     return (
@@ -17,7 +19,7 @@ class UI_apply extends React.Component {
               <img
                 alt="..."
                 className="img-center img-fluid"
-                src={require("assets/img/football/apply.PNG")}
+                src={apply}
               />
             </Col>
             <Col className="order-md-1" md="4">

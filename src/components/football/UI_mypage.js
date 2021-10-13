@@ -9,6 +9,9 @@ import {
   Col
 } from "reactstrap";
 
+import mypage_post from 'assets/img/football/mypage_post.jpg';
+import mypage_apply from 'assets/img/football/mypage_apply.jpg';
+
 class UI_mypage extends React.Component {
   render() {
     return (
@@ -33,7 +36,7 @@ class UI_mypage extends React.Component {
                 <img
                   alt="..."
                   className="img-center img-fluid"
-                  src={require("assets/img/football/mypage_post.jpg")}
+                  src={mypage_post}
                 />
               </Col>
               <Col className="order-md-1" md="6">
@@ -113,7 +116,7 @@ class UI_mypage extends React.Component {
                 <img
                   alt="..."
                   className="img-center img-fluid"
-                  src={require("assets/img/football/mypage_apply.jpg")}
+                  src={mypage_apply}
                 />
               </Col>
               <Col md="6">

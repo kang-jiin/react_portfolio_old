@@ -35,6 +35,8 @@ import {
   Col
 } from "reactstrap";
 
+import argon_react from 'assets/img/brand/argon-react.png';
+
 class Menus extends React.Component {
   render() {
     return (
@@ -68,7 +70,7 @@ class Menus extends React.Component {
                             <Link to="/">
                               <img
                                 alt="..."
-                                src={require("assets/img/brand/argon-react.png")}
+                                src={argon_react}
                               />
                             </Link>
                           </Col>
@@ -157,7 +159,7 @@ class Menus extends React.Component {
                             <Link to="/">
                               <img
                                 alt="..."
-                                src={require("assets/img/brand/argon-react.png")}
+                                src={argon_react}
                               />
                             </Link>
                           </Col>

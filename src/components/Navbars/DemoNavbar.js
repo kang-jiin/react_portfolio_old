@@ -39,6 +39,9 @@ import {
   UncontrolledTooltip
 } from "reactstrap";
 
+import argon_react_white from 'assets/img/brand/argon-react-white.png';
+import argon_react from 'assets/img/brand/argon-react.png';
+
 class DemoNavbar extends React.Component {
   componentDidMount() {
     let headroom = new Headroom(document.getElementById("navbar-main"));
@@ -75,7 +78,7 @@ class DemoNavbar extends React.Component {
               <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
                 <img
                   alt="..."
-                  src={require("assets/img/brand/argon-react-white.png")}
+                  src={argon_react_white}
                 />
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
@@ -94,7 +97,7 @@ class DemoNavbar extends React.Component {
                       <Link to="/">
                         <img
                           alt="..."
-                          src={require("assets/img/brand/argon-react.png")}
+                          src={argon_react}
                         />
                       </Link>
                     </Col>

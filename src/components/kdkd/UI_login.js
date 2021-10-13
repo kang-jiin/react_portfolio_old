@@ -7,6 +7,8 @@ import {
   Col
 } from "reactstrap";
 
+import kdkd_login3 from 'assets/img/kdkd/kdkd_login3.png';
+
 class UI_login extends React.Component {
   render() {
     return (
@@ -17,7 +19,7 @@ class UI_login extends React.Component {
               <img
                 alt="..."
                 className="img-fluid floating"
-                src={require("assets/img/kdkd/kdkd_login3.png")}
+                src={kdkd_login3}
               />
             </Col>
             <Col className="order-md-1" md="4">

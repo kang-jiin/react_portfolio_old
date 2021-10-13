@@ -8,6 +8,8 @@ import {
   Col
 } from "reactstrap";
 
+import sgpg_home from 'assets/img/sgpg/sgpg_home.png';
+
 class UI_home extends React.Component {
   render() {
     return (
@@ -33,7 +35,7 @@ class UI_home extends React.Component {
                   <img
                     alt="..."
                     className="img-center img-fluid"
-                    src={require("assets/img/sgpg/sgpg_home.png")}
+                    src={sgpg_home}
                   />
                 </div>
               </Col>

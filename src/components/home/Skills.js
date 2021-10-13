@@ -3,6 +3,17 @@ import React from "react";
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
 
+import img_C from 'assets/img/skills/icons8-c-programming-500.png';
+import img_cpp from 'assets/img/skills/cpppp-490x490.png';
+import img_java from 'assets/img/skills/java.png';
+import img_js from 'assets/img/skills/900px-JavaScript-logo.png';
+import img_html from 'assets/img/skills/html.png';
+import img_css from 'assets/img/skills/css.png';
+import img_jquery from 'assets/img/skills/jquery.png';
+import img_node from 'assets/img/skills/icons8-nodejs-500.png';
+import orcacle from 'assets/img/skills/oracle.png';
+import mysql from 'assets/img/skills/mysql.png';
+
 class Skills extends React.Component {
   render() {
     return (
@@ -21,7 +32,7 @@ class Skills extends React.Component {
             <img
               alt="..."
               className="img-fluid rounded shadow-lg"
-              src={require("assets/img/skills/icons8-c-programming-500.png")}
+              src={img_C}
               style={{ width: "150px" }}
             />
           </Col>
@@ -32,7 +43,7 @@ class Skills extends React.Component {
             <img
               alt="..."
               className="img-fluid rounded shadow-lg"
-              src={require("assets/img/skills/cpppp-490x490.png")}
+              src={img_cpp}
               style={{ width: "150px" }}
             />
           </Col>
@@ -43,7 +54,7 @@ class Skills extends React.Component {
             <img
               alt="..."
               className="img-fluid rounded shadow-lg"
-              src={require("assets/img/skills/java.png")}
+              src={img_java}
               style={{ width: "150px" }}
             />
           </Col>
@@ -54,7 +65,7 @@ class Skills extends React.Component {
             <img
               alt="..."
               className="img-fluid rounded shadow-lg"
-              src={require("assets/img/skills/900px-JavaScript-logo.png")}
+              src={img_js}
               style={{ width: "150px" }}
             />
           </Col>
@@ -68,7 +79,7 @@ class Skills extends React.Component {
             <img
               alt="..."
               className="img-fluid rounded shadow-lg"
-              src={require("assets/img/skills/html.png")}
+              src={img_html}
               style={{ width: "150px" }}
             />
           </Col>
@@ -79,7 +90,7 @@ class Skills extends React.Component {
             <img
               alt="..."
               className="img-fluid rounded shadow-lg"
-              src={require("assets/img/skills/css.png")}
+              src={img_css}
               style={{ width: "150px" }}
             />
           </Col>
@@ -90,7 +101,7 @@ class Skills extends React.Component {
             <img
               alt="..."
               className="img-fluid rounded shadow-lg"
-              src={require("assets/img/skills/jquery.png")}
+              src={img_jquery}
               style={{ width: "150px" }}
             />
           </Col>
@@ -101,7 +112,7 @@ class Skills extends React.Component {
             <img
               alt="..."
               className="img-fluid rounded shadow-lg"
-              src={require("assets/img/skills/icons8-nodejs-500.png")}
+              src={img_node}
               style={{ width: "150px" }}
             />
           </Col>
@@ -115,7 +126,7 @@ class Skills extends React.Component {
             <img
               alt="..."
               className="img-fluid rounded shadow-lg"
-              src={require("assets/img/skills/oracle.png")}
+              src={orcacle}
               style={{ width: "150px" }}
             />
           </Col>
@@ -126,7 +137,7 @@ class Skills extends React.Component {
             <img
               alt="..."
               className="img-fluid rounded shadow-lg"
-              src={require("assets/img/skills/mysql.png")}
+              src={mysql}
               style={{ width: "150px" }}
             />
           </Col>

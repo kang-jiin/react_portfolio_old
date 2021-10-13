@@ -7,6 +7,8 @@ import {
   Col
 } from "reactstrap";
 
+import sgpg_itemadd from 'assets/img/sgpg/sgpg_itemadd.png';
+
 class UI_itemadd extends React.Component {
   render() {
     return (
@@ -17,7 +19,7 @@ class UI_itemadd extends React.Component {
               <img
                 alt="..."
                 className="img-fluid floating"
-                src={require("assets/img/sgpg/sgpg_itemadd.png")}
+                src={sgpg_itemadd}
               />
             </Col>
             <Col className="order-md-1" md="4">

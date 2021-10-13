@@ -9,6 +9,11 @@ import {
   Col
 } from "reactstrap";
 
+// import kdkd_inout_hw2 from 'assets/img/kdkd_inout_hw2.png';
+import kdkd_img from 'assets/img/kdkd/kdkd_img.jpg';
+import kdkd_inout from 'assets/img/kdkd/kdkd_inout.png';
+import kdkd_inout_hw from 'assets/img/kdkd/kdkd_inout_hw.png';
+
 class UI_inout extends React.Component {
   render() {
     return (
@@ -21,8 +26,8 @@ class UI_inout extends React.Component {
                   <CardImg
                     className="bg-scendary"
                     alt="..."
-                    // src={require("assets/img/kdkd_inout_hw2.png")}
-                    src={require("assets/img/kdkd/kdkd_img.jpg")}
+                    // src={kdkd_inout_hw2}
+                    src={kdkd_img}
                     top
                   />
                   <blockquote className="card-blockquote">
@@ -75,7 +80,7 @@ class UI_inout extends React.Component {
                     <img
                       alt="..."
                       className="img-center img-fluid"
-                      src={require("assets/img/kdkd/kdkd_inout.png")}
+                      src={kdkd_inout}
                     />
                   </div>
                 </div>
@@ -146,7 +151,7 @@ class UI_inout extends React.Component {
                 <img
                   alt="..."
                   className="img-center img-fluid"
-                  src={require("assets/img/kdkd/kdkd_inout_hw.png")}
+                  src={kdkd_inout_hw}
                 />
               </Col>
             </Row>

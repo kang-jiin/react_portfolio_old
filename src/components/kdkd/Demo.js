@@ -10,6 +10,8 @@ import {
   Col
 } from "reactstrap";
 
+import kdkd_home from 'assets/img/kdkd/kdkd_home.png';
+
 class Demo extends React.Component {
   render() {
     return (
@@ -35,7 +37,7 @@ class Demo extends React.Component {
                   >
                     <CardImg
                       alt="..."
-                      src={require("assets/img/kdkd/kdkd_home.png")}
+                      src={kdkd_home}
                     />
                   </Button>
                 </Card>

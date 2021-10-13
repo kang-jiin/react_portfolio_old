@@ -9,6 +9,8 @@ import {
   Col
 } from "reactstrap";
 
+import post_detail from 'assets/img/football/post_detail.jpg';
+
 class UI_postdetail extends React.Component {
   render() {
     return (
@@ -20,7 +22,7 @@ class UI_postdetail extends React.Component {
                 <img
                   alt="..."
                   className="img-center img-fluid"
-                  src={require("assets/img/football/post_detail.jpg")}
+                  src={post_detail}
                 />
               </Col>
               <Col md="6">

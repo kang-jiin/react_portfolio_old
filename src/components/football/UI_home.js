@@ -8,6 +8,8 @@ import {
   Col
 } from "reactstrap";
 
+import home from 'assets/img/football/home.jpg';
+
 class UI_home extends React.Component {
   render() {
     return (
@@ -33,7 +35,7 @@ class UI_home extends React.Component {
                   <img
                     alt="..."
                     className="img-center img-fluid"
-                    src={require("assets/img/football/home.jpg")}
+                    src={home}
                   />
                 </div>
               </Col>

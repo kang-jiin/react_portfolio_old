@@ -32,6 +32,9 @@ import {
   UncontrolledTooltip
 } from "reactstrap";
 
+import landing from 'assets/img/theme/landing.jpg';
+import profile from 'assets/img/theme/profile.jpg';
+
 class CardsFooter extends React.Component {
   render() {
     return (
@@ -44,7 +47,7 @@ class CardsFooter extends React.Component {
                   <Link to="/landing-page">
                     <CardImg
                       alt="..."
-                      src={require("assets/img/theme/landing.jpg")}
+                      src={landing}
                     />
                   </Link>
                 </Card>
@@ -54,7 +57,7 @@ class CardsFooter extends React.Component {
                   <Link to="/profile-page">
                     <CardImg
                       alt="..."
-                      src={require("assets/img/theme/profile.jpg")}
+                      src={profile}
                     />
                   </Link>
                 </Card>

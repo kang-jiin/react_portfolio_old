@@ -7,6 +7,8 @@ import {
   Col
 } from "reactstrap";
 
+import post_insert from 'assets/img/football/post_insert.jpg';
+
 class UI_postinsert extends React.Component {
   render() {
     return (
@@ -18,7 +20,7 @@ class UI_postinsert extends React.Component {
               <img
                 alt="..."
                 className="img-center img-fluid"
-                src={require("assets/img/football/post_insert.jpg")}
+                src={post_insert}
               />
             </Col>
             <Col className="order-md-1" md="7">

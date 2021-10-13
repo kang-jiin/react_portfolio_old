@@ -9,6 +9,10 @@ import {
   Col
 } from "reactstrap";
 
+import kdkd_home from 'assets/img/kdkd/kdkd_home.png';
+import img_4989 from 'assets/img/sgpg/4989.PNG';
+import football from 'assets/img/football/home.jpg';
+
 class Projects extends React.Component {
   render() {
     return (
@@ -24,7 +28,7 @@ class Projects extends React.Component {
                   <Col className="mb-md-0" lg="6" >
                     <CardImg
                       alt="..."
-                      src={require("assets/img/kdkd/kdkd_home.png")}
+                      src={kdkd_home}
                     />
                   </Col>
                   <Col className="p-3" lg="6" >
@@ -96,7 +100,7 @@ class Projects extends React.Component {
                   <Col className="mb-md-0" lg="6" >
                     <CardImg
                       alt="..."
-                      src={require("assets/img/sgpg/4989.PNG")}
+                      src={img_4989}
                     />
                   </Col>
                   <Col className="p-3" lg="6" >
@@ -168,7 +172,7 @@ class Projects extends React.Component {
                   <Col className="mb-md-0" lg="6" >
                     <CardImg
                       alt="..."
-                      src={require("assets/img/football/home.jpg")}
+                      src={football}
                     />
                   </Col>
                   <Col className="p-3" lg="6" >
