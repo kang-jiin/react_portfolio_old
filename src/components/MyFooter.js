@@ -26,7 +26,7 @@ class MyFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="github"
-                  href="https://github.com/KangG"
+                  href="https://github.com/kang-jiin"
                   target="_blank"
                 >
                   <span className="btn-inner--icon">
@@ -51,7 +51,7 @@ class MyFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="github"
-                  href="https://github.com/KangG"
+                  href="https://github.com/kang-jiin"
                   target="_blank"
                 >
                   <span className="btn-inner--icon">

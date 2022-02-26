@@ -55,7 +55,7 @@ class Summary extends React.Component {
                       <Button
                         className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                         color="default"
-                        href="https://github.com/KangG/football"
+                        href="https://github.com/kang-jiin/football"
                         target="_blank"
                       >
                         <span className="btn-inner--icon mr-1">

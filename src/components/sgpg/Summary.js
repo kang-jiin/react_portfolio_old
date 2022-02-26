@@ -56,7 +56,7 @@ class Summary extends React.Component {
                       <Button
                         className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                         color="default"
-                        href="https://github.com/KangG/4989_aws"
+                        href="https://github.com/kang-jiin/4989_aws"
                         target="_blank"
                       >
                         <span className="btn-inner--icon mr-1">

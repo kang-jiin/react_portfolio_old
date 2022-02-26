@@ -115,7 +115,7 @@ class SubNavbar extends React.Component {
                     <Button
                       className="btn-neutral btn-icon"
                       color="default"
-                      href="https://github.com/KangG"
+                      href="https://github.com/kang-jiin"
                       target="_blank"
                     >
                       <span className="btn-inner--icon">
