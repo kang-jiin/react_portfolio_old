@@ -1,9 +1,7 @@
 # react_portfolio
 개발자 강지인을 소개하는 WEB PORTFOLIO
 
-http://kangjiinportfolio.cf/
-
-http://kangjiin.webportfolio.cf/
+http://kangjiin.com/
 
 
 ## 개발 환경
