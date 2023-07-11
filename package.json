@@ -48,7 +48,7 @@
     "jquery": "3.5.0",
     "typescript": "3.7.5",
     "url-loader": "^4.1.1",
-    "webpack": "^5.56.0",
+    "webpack": "^5.76.0",
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.3.0"
   }
